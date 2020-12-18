@@ -120,6 +120,13 @@ INAVI_EXPORT
 
 - (void)visibleTrafficLine:(Boolean)show;
 
+/**
+ 지도 컴포넌트 강제 Hide
+ @param componentID 지도 컴포넌트 타입.
+ @param hide true 컴포넌트 미표출, false 컴포넌트 표출
+ */
+- (void)forceHideMapComponent:(INVMapComponent)componentID hide:(BOOL)hide;
+
 #pragma mark - search
 - (void)runSearch:(NSString*)query lat:(double)lat lng:(double)lng successHandler:(INaviSearchSuccessHandler)successHandler failHandler:(INaviFailHandler)failHandler;
 - (void)runRecommendWord:(NSString*)query successHandler:(INaviRecommendSearchSuccessHandler)successHandler failHandler:(INaviFailHandler)failHandler;

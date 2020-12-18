@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic) NSInteger remainTime;
 @property(nonatomic) NSInteger remainDist;
+@property(nonatomic) NSInteger remainFee;
 
 @end
 

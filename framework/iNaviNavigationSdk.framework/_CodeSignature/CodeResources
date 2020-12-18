@@ -46,7 +46,7 @@
 		</data>
 		<key>Headers/IACommon.h</key>
 		<data>
-		nmGv/T80PDs8YR8jUV4Bw6zG7ac=
+		ZMPRveTeQUmOG32m86ZMvOyYTTQ=
 		</data>
 		<key>Headers/IAGuidanceDefine.h</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Headers/INaviController.h</key>
 		<data>
-		7CYILHTOKm+e9wUG+FRufq5S1X4=
+		/AdDtvqPYZGF77mtxbW6/b5i/2o=
 		</data>
 		<key>Headers/INaviControllerDefine.h</key>
 		<data>
-		GSGcN+KYzjK5XjzJJy+ihx3i6VI=
+		dvxTdBYpgld0s87yJpFKvEbxLo8=
 		</data>
 		<key>Headers/INaviControllerDelegate.h</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Headers/INaviRouteRemainInfo.h</key>
 		<data>
-		3M8x0421InTNtsjwYHDOmCm3CNg=
+		t4ewg+Txtxz/mUWCgI7MSdY/Y70=
 		</data>
 		<key>Headers/INaviRouteSumInfo.h</key>
 		<data>
@@ -164,97 +164,93 @@
 		<data>
 		JxG172MDKmXn/pV0JP2ANMQaiag=
 		</data>
-		<key>Inavi RixGo_B.ttf</key>
-		<data>
-		ng4lVlvB6ylR+0EOY7u8sWv1C4A=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		0ZGXSGSxfYye8Wz5QvqKW3NCb/M=
+		0eoXG2kfJXMyRxUT9eJ2jPhCQoA=
 		</data>
 		<key>InvArriveView.nib</key>
 		<data>
-		ccp4bKrWIgVvZeSkzCIkUxaVIDk=
+		E5blvEH83prFtv9uSKlizraMaAE=
 		</data>
 		<key>InvBottomInfoView.nib</key>
 		<data>
-		6CFvuT53wuEOUsUz6minR4SnT/A=
+		8fJYsW0AlXdAmLhFR1zK6KAH/lg=
 		</data>
 		<key>InvBottomMainView.nib</key>
 		<data>
-		7wU8EVmD7YjRXWQuapJKxhmQAwI=
+		91TRl2q68KMxGi1vlPhTb51AfG8=
 		</data>
 		<key>InvBottomSimulInfoView.nib</key>
 		<data>
-		fZYduZqVCZZOjULQgDBVpBHTI8E=
+		ruyNhkHR2x5MBRPbewOs+fx0F/I=
 		</data>
 		<key>InvGuideLayer.nib</key>
 		<data>
-		XKHIUDIsAG9KPeNom0fZGCLvkiE=
+		25GTmiegjKFZ8VLDS6y+jSzHVYM=
 		</data>
 		<key>InvHighWayTableViewCell.nib</key>
 		<data>
-		h0hwpS3y1rUlYXriGcK6xGl1hC8=
+		RQca0gvo5/pxSI/BFuyYE6XK72s=
 		</data>
 		<key>InvHighWayView.nib</key>
 		<data>
-		50sHFV+ugCeUqK31qZSwIR6N/sU=
+		P4cQuYKxLyr9ZnS4qw/ChtNzuIc=
 		</data>
 		<key>InvLaneView.nib</key>
 		<data>
-		Nry/l2WxUqbOa4OCZoJuhcMGZEM=
+		0gUd+rZ22xc6Ol+SaEk2xxTiltU=
 		</data>
 		<key>InvMapModeBtnView.nib</key>
 		<data>
-		ZK4zpNEQifxQHBXQFfZCOU4i0Lc=
+		Xd/J18DDDcOG4JzuWhbwZHnB5yw=
 		</data>
 		<key>InvMenuLayer.nib</key>
 		<data>
-		8dNRKxA+rtHiPwKYJDPqv7YbvH4=
+		BqceJc5gE5LTrSf1lvidRC495IA=
 		</data>
 		<key>InvRouteTrafficBarView.nib</key>
 		<data>
-		c/i41iQ944Ki6xgeOIGqKu0TRKw=
+		73SVbv3tgXEIjShICkyZclKlRmY=
 		</data>
 		<key>InvSafeView.nib</key>
 		<data>
-		Niia660QPPkFfIJtGfM2ykg+n1s=
+		+1ZBnjiV5kxJXSFBUB4Lh4qnNbo=
 		</data>
 		<key>InvSpeedView.nib</key>
 		<data>
-		I2yiyNAwrx7dfuA+HLTQXc+7Nx4=
+		GjiKzbKQdPRbXe0dJisrJihLYi4=
 		</data>
 		<key>InvTurnView.nib</key>
 		<data>
-		okMaw4de5VfAt6ew6gerSPf2U78=
+		vhfYSyyHT7ReY18W396weoGKFyg=
 		</data>
 		<key>InvVmsView.nib</key>
 		<data>
-		+5qSULVD/p6PPgRLBNauR/Rotjw=
+		YwiP1sG/AezmBYe6890eeb0XoPw=
 		</data>
 		<key>InvZoomView.nib</key>
 		<data>
-		ZuhvwUY71kO7UMHnFwIM6F5qjV8=
+		PBYzENR2eeBpIeTsdxXu+Oep3rI=
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/Project/arm.swiftsourceinfo</key>
 		<data>
-		2FoSUBPVcUwjOjVTf8N+kyoFEGY=
+		nR5EMup3UXmuioYmRkxods7hdxQ=
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		Jroj2wlS3zrg1keCpSH/pKpcUL8=
+		XQV9vIzkq6z2YBfS9Yxyutmr10g=
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		Jroj2wlS3zrg1keCpSH/pKpcUL8=
+		XQV9vIzkq6z2YBfS9Yxyutmr10g=
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
 		<data>
-		2FoSUBPVcUwjOjVTf8N+kyoFEGY=
+		nR5EMup3UXmuioYmRkxods7hdxQ=
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/Project/armv7.swiftsourceinfo</key>
 		<data>
-		2FoSUBPVcUwjOjVTf8N+kyoFEGY=
+		nR5EMup3UXmuioYmRkxods7hdxQ=
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -266,7 +262,7 @@
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/arm.swiftmodule</key>
 		<data>
-		7BqSgr4Fea0Pk6polnhUn9IL0xs=
+		gkilQ968pi2Ksr1ILdU7iHjwzrI=
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -278,7 +274,7 @@
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		gVYPHZsWKHUBCRFysDXA/zsnSoA=
+		hs4M70gKhy3v2ZS8H8/kdXH/svk=
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -290,7 +286,7 @@
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		gVYPHZsWKHUBCRFysDXA/zsnSoA=
+		hs4M70gKhy3v2ZS8H8/kdXH/svk=
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
@@ -302,7 +298,7 @@
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		7BqSgr4Fea0Pk6polnhUn9IL0xs=
+		gkilQ968pi2Ksr1ILdU7iHjwzrI=
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/armv7.swiftdoc</key>
 		<data>
@@ -314,27 +310,27 @@
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		7BqSgr4Fea0Pk6polnhUn9IL0xs=
+		gkilQ968pi2Ksr1ILdU7iHjwzrI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		TcatdJ/BQyeJtpwM8QBUnbt61IY=
 		</data>
+		<key>Spoqa Han Sans Light.ttf</key>
+		<data>
+		29S3Q2xkWs8eE+eMrezfbrfBh1M=
+		</data>
 		<key>configdata.plist</key>
 		<data>
 		FxbDhbNVrjbe/61RdvbHjuH6eDk=
 		</data>
-		<key>inavi_rixgo_0.ttf</key>
+		<key>spoqa_han_sans_bold.ttf</key>
 		<data>
-		UwuZc+u7J6blEHccqAEiDJ3ucdU=
+		Iidv75NTyVx73l/vUt33oeOyN0c=
 		</data>
-		<key>inavi_rixgo_b.ttf</key>
+		<key>spoqa_han_sans_regular.ttf</key>
 		<data>
-		fqzvuo4MCZuxv2DyWGZy4xV7Cok=
-		</data>
-		<key>inavi_rixgo_m.ttf</key>
-		<data>
-		wrOoFEwz9vURn04OoCG9VGZU5zo=
+		SSMgWLOQfBGnGbltHPHbNxBIiHo=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -453,11 +449,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nmGv/T80PDs8YR8jUV4Bw6zG7ac=
+			ZMPRveTeQUmOG32m86ZMvOyYTTQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			XcYsgiIgzCous3BI/F2GutY0r2jqrxlnejHCVo9l4KU=
+			St8aW9WMdOmj4MlyFAFu0cz/r/LzAH3CiRVb5o3gTDA=
 			</data>
 		</dict>
 		<key>Headers/IAGuidanceDefine.h</key>
@@ -486,22 +482,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7CYILHTOKm+e9wUG+FRufq5S1X4=
+			/AdDtvqPYZGF77mtxbW6/b5i/2o=
 			</data>
 			<key>hash2</key>
 			<data>
-			jYKjMQkngeQ5sSOBnYskvr05nYSYD05lWuu3ljjFh84=
+			CQDlKdC7wUl9Kg8QGNO01HCCicndONh1GuW0OFXitqQ=
 			</data>
 		</dict>
 		<key>Headers/INaviControllerDefine.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GSGcN+KYzjK5XjzJJy+ihx3i6VI=
+			dvxTdBYpgld0s87yJpFKvEbxLo8=
 			</data>
 			<key>hash2</key>
 			<data>
-			HuksRqpTTttt5VHnhKrgg5pLwPX7g5v+orvXklaaWSg=
+			TS2oHg3W4J8X+1Aa6Pn4GohEyGlLHgk5QRpSQ5e/YV4=
 			</data>
 		</dict>
 		<key>Headers/INaviControllerDelegate.h</key>
@@ -607,11 +603,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3M8x0421InTNtsjwYHDOmCm3CNg=
+			t4ewg+Txtxz/mUWCgI7MSdY/Y70=
 			</data>
 			<key>hash2</key>
 			<data>
-			fXJyQDKXgVfEQOUpJqLzPDak+/6OPsm8Fu8o1r16Fr8=
+			tDen+qAYi5WigUSP2b5V6GqVaNGkkjlO9s+GUnmPQj8=
 			</data>
 		</dict>
 		<key>Headers/INaviRouteSumInfo.h</key>
@@ -779,246 +775,235 @@
 			xe9JfDM2hey2ik8z4QsTuNznn5t0sY6v9GA6J1Q2oqo=
 			</data>
 		</dict>
-		<key>Inavi RixGo_B.ttf</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ng4lVlvB6ylR+0EOY7u8sWv1C4A=
-			</data>
-			<key>hash2</key>
-			<data>
-			jeFK0/xu9yq5sKgI8QG9ocVyA7AiRknezQDkf1MXYoQ=
-			</data>
-		</dict>
 		<key>InvArriveView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ccp4bKrWIgVvZeSkzCIkUxaVIDk=
+			E5blvEH83prFtv9uSKlizraMaAE=
 			</data>
 			<key>hash2</key>
 			<data>
-			wc+UsXzR9xPcNlNeflJUBh8OVwHq84jiJPw8tggw8xE=
+			5IjBmAMkcNMRYYTP+ZebF4I8d12E1iTXgM4aArWCF9o=
 			</data>
 		</dict>
 		<key>InvBottomInfoView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6CFvuT53wuEOUsUz6minR4SnT/A=
+			8fJYsW0AlXdAmLhFR1zK6KAH/lg=
 			</data>
 			<key>hash2</key>
 			<data>
-			MweyQAWAIM9Fj2rX6fT4iOLowAEOLXhZnTcJbp0wzUs=
+			9DqdSl22y+WHjprvfaMjlg8UHYnKW5uThg7uOrKfq1A=
 			</data>
 		</dict>
 		<key>InvBottomMainView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7wU8EVmD7YjRXWQuapJKxhmQAwI=
+			91TRl2q68KMxGi1vlPhTb51AfG8=
 			</data>
 			<key>hash2</key>
 			<data>
-			ubvt00D5l5OuXWabVnc8z0tOW1/6iB0EjwwW4bulFPQ=
+			ZzUlqCHpsw66DDUHrkeYjk+FmvU23CWal3NA5Q72sag=
 			</data>
 		</dict>
 		<key>InvBottomSimulInfoView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fZYduZqVCZZOjULQgDBVpBHTI8E=
+			ruyNhkHR2x5MBRPbewOs+fx0F/I=
 			</data>
 			<key>hash2</key>
 			<data>
-			2vT/1MSjgc3Dms5SUNgjT8s1aQD8+xMIkr1P2oQLKk0=
+			5Vh8ILSCyEEPu/4NmFP3RUhXjXxw7+1QxnENfFTEgyo=
 			</data>
 		</dict>
 		<key>InvGuideLayer.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XKHIUDIsAG9KPeNom0fZGCLvkiE=
+			25GTmiegjKFZ8VLDS6y+jSzHVYM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Lqi5YmP7J7K8SVsOgw37hH3Y71U9VpLt4c5e3I7lJ7c=
+			DGHYeQDpgrkU4qFahfzus600EJpkvJq4UHdxwOFyvTc=
 			</data>
 		</dict>
 		<key>InvHighWayTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			h0hwpS3y1rUlYXriGcK6xGl1hC8=
+			RQca0gvo5/pxSI/BFuyYE6XK72s=
 			</data>
 			<key>hash2</key>
 			<data>
-			KN1T27ArTFaRevWclHWiRaA2TY8Td9pYNQ0GkbBVDpk=
+			vud+jZi3A0PAhQsMVmlKtjBGCia7h44CzM1IyPTUFS0=
 			</data>
 		</dict>
 		<key>InvHighWayView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			50sHFV+ugCeUqK31qZSwIR6N/sU=
+			P4cQuYKxLyr9ZnS4qw/ChtNzuIc=
 			</data>
 			<key>hash2</key>
 			<data>
-			8s8eIGnxEjjcOQEzatKleaZrjCI7gLW/mIrL991Oec8=
+			8bUGCGmTzPQrDbFlxHbn4G3dcPX6j0X/ujDDBualGcg=
 			</data>
 		</dict>
 		<key>InvLaneView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Nry/l2WxUqbOa4OCZoJuhcMGZEM=
+			0gUd+rZ22xc6Ol+SaEk2xxTiltU=
 			</data>
 			<key>hash2</key>
 			<data>
-			wfAkUwoggwduh+6uZ4UoB3vZC7kq7kD2jxCY+RxLZLk=
+			u2aqCA92nJCovtdbnZpHuyzuIPaNVoeSq4j6PP/HpzI=
 			</data>
 		</dict>
 		<key>InvMapModeBtnView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZK4zpNEQifxQHBXQFfZCOU4i0Lc=
+			Xd/J18DDDcOG4JzuWhbwZHnB5yw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Bm5UsOeg7Uw5fGmPR+RcbzmoCHHSQ8wf5Z9ZhQf830I=
+			sf3B8FyJf+bgHQGJfMV36wEz24zbUEjw4FoA39Bp0i4=
 			</data>
 		</dict>
 		<key>InvMenuLayer.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8dNRKxA+rtHiPwKYJDPqv7YbvH4=
+			BqceJc5gE5LTrSf1lvidRC495IA=
 			</data>
 			<key>hash2</key>
 			<data>
-			gHjn4Oz2b6kBPrW3eGfWUbrTCzpdfZxsvRlxFu26TgU=
+			3FfsJS2Ht3p/hxJh/kR+RppgUiGTswxq6wx287Ra/rE=
 			</data>
 		</dict>
 		<key>InvRouteTrafficBarView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			c/i41iQ944Ki6xgeOIGqKu0TRKw=
+			73SVbv3tgXEIjShICkyZclKlRmY=
 			</data>
 			<key>hash2</key>
 			<data>
-			JZ08HtZsdyc8BDeUK8QLP8nU5otz0lce+8vxbaXcDI8=
+			3PyVb9Tl++Q6FUjva5PovdQ4juviQSTQP4Vd+Ww0YGY=
 			</data>
 		</dict>
 		<key>InvSafeView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Niia660QPPkFfIJtGfM2ykg+n1s=
+			+1ZBnjiV5kxJXSFBUB4Lh4qnNbo=
 			</data>
 			<key>hash2</key>
 			<data>
-			PIFVIZzN6KFl9r+fm8UARESKluSzqeqIYq5k53PFxSc=
+			O4uI76I0GRx/Gvmug6sSfT9kIppZ74MI40gjB88o43E=
 			</data>
 		</dict>
 		<key>InvSpeedView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			I2yiyNAwrx7dfuA+HLTQXc+7Nx4=
+			GjiKzbKQdPRbXe0dJisrJihLYi4=
 			</data>
 			<key>hash2</key>
 			<data>
-			O9WU5co6Of9+u/aeWtIU3sAdJL4W+aB9yvcXJLniWy0=
+			TO9mm73hgoaJQEMnROwGm4EbHKxT0+U0XtRyuNp6yEk=
 			</data>
 		</dict>
 		<key>InvTurnView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			okMaw4de5VfAt6ew6gerSPf2U78=
+			vhfYSyyHT7ReY18W396weoGKFyg=
 			</data>
 			<key>hash2</key>
 			<data>
-			e56tZGMgjSdLDsr9u/rGigFhz11P8Owo8JyqfhO8Gwk=
+			BcRa1iklVzKaM2ksR0NoC9XKuwMmS1BlstEWAwaB5hU=
 			</data>
 		</dict>
 		<key>InvVmsView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+5qSULVD/p6PPgRLBNauR/Rotjw=
+			YwiP1sG/AezmBYe6890eeb0XoPw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Sn3mx8Kv3aiLll+A+LMFmbGxz/Fgkvn21odg7WGyhww=
+			exJKAwzxqmdjFWdL5Ge0VWiRUlmoYAiX0/T1MYI+gKM=
 			</data>
 		</dict>
 		<key>InvZoomView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZuhvwUY71kO7UMHnFwIM6F5qjV8=
+			PBYzENR2eeBpIeTsdxXu+Oep3rI=
 			</data>
 			<key>hash2</key>
 			<data>
-			4AaGaFwKVQLDmEhCQLwFUbgMunYVYBvvBXXneD2gLp8=
+			LCt2u6no0tJGCakeIzDg1SBhLr6ltSa7Dt+y788bPKM=
 			</data>
 		</dict>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/Project/arm.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2FoSUBPVcUwjOjVTf8N+kyoFEGY=
+			nR5EMup3UXmuioYmRkxods7hdxQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			pkixWVjcckj92GaBS+gx121hWftAVeA7fETXT91zIrI=
+			Op+sSyvUQZX1SnnXXORg2+6AkZvQRQE/qd8i/AH2Iwk=
 			</data>
 		</dict>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Jroj2wlS3zrg1keCpSH/pKpcUL8=
+			XQV9vIzkq6z2YBfS9Yxyutmr10g=
 			</data>
 			<key>hash2</key>
 			<data>
-			tLzYqVUQbtLbC1b5UjNGcdaRhLrFJijBS3N+wH4ZF3Q=
+			rCy4twy0ThXyYglikkDZPNE27J+EpSpcTEBvbXlZFnE=
 			</data>
 		</dict>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Jroj2wlS3zrg1keCpSH/pKpcUL8=
+			XQV9vIzkq6z2YBfS9Yxyutmr10g=
 			</data>
 			<key>hash2</key>
 			<data>
-			tLzYqVUQbtLbC1b5UjNGcdaRhLrFJijBS3N+wH4ZF3Q=
+			rCy4twy0ThXyYglikkDZPNE27J+EpSpcTEBvbXlZFnE=
 			</data>
 		</dict>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2FoSUBPVcUwjOjVTf8N+kyoFEGY=
+			nR5EMup3UXmuioYmRkxods7hdxQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			pkixWVjcckj92GaBS+gx121hWftAVeA7fETXT91zIrI=
+			Op+sSyvUQZX1SnnXXORg2+6AkZvQRQE/qd8i/AH2Iwk=
 			</data>
 		</dict>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/Project/armv7.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2FoSUBPVcUwjOjVTf8N+kyoFEGY=
+			nR5EMup3UXmuioYmRkxods7hdxQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			pkixWVjcckj92GaBS+gx121hWftAVeA7fETXT91zIrI=
+			Op+sSyvUQZX1SnnXXORg2+6AkZvQRQE/qd8i/AH2Iwk=
 			</data>
 		</dict>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/arm.swiftdoc</key>
@@ -1047,11 +1032,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7BqSgr4Fea0Pk6polnhUn9IL0xs=
+			gkilQ968pi2Ksr1ILdU7iHjwzrI=
 			</data>
 			<key>hash2</key>
 			<data>
-			tb9VXyZKsx7/536ZCExWKsKMbfOQ96W5EXR7nQaOvkc=
+			301MVaWoHf8LsEum6acJdVZFTW0QD7EnQfrzZ1Gl1C4=
 			</data>
 		</dict>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -1080,11 +1065,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gVYPHZsWKHUBCRFysDXA/zsnSoA=
+			hs4M70gKhy3v2ZS8H8/kdXH/svk=
 			</data>
 			<key>hash2</key>
 			<data>
-			PilKFpY1PWir/t5l3YNTC6izZf7wcO+OC6MoW0LPWuQ=
+			b9+NDGhzrZMu3cc1EDLO+F+U92p0UnDEspJjb0cHTg0=
 			</data>
 		</dict>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/arm64.swiftdoc</key>
@@ -1113,11 +1098,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gVYPHZsWKHUBCRFysDXA/zsnSoA=
+			hs4M70gKhy3v2ZS8H8/kdXH/svk=
 			</data>
 			<key>hash2</key>
 			<data>
-			PilKFpY1PWir/t5l3YNTC6izZf7wcO+OC6MoW0LPWuQ=
+			b9+NDGhzrZMu3cc1EDLO+F+U92p0UnDEspJjb0cHTg0=
 			</data>
 		</dict>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/armv7-apple-ios.swiftdoc</key>
@@ -1146,11 +1131,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7BqSgr4Fea0Pk6polnhUn9IL0xs=
+			gkilQ968pi2Ksr1ILdU7iHjwzrI=
 			</data>
 			<key>hash2</key>
 			<data>
-			tb9VXyZKsx7/536ZCExWKsKMbfOQ96W5EXR7nQaOvkc=
+			301MVaWoHf8LsEum6acJdVZFTW0QD7EnQfrzZ1Gl1C4=
 			</data>
 		</dict>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/armv7.swiftdoc</key>
@@ -1179,11 +1164,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7BqSgr4Fea0Pk6polnhUn9IL0xs=
+			gkilQ968pi2Ksr1ILdU7iHjwzrI=
 			</data>
 			<key>hash2</key>
 			<data>
-			tb9VXyZKsx7/536ZCExWKsKMbfOQ96W5EXR7nQaOvkc=
+			301MVaWoHf8LsEum6acJdVZFTW0QD7EnQfrzZ1Gl1C4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1197,6 +1182,17 @@
 			le0i2plSYHavRylGreOl3MghLvjR6yA32mB/0H/DPYE=
 			</data>
 		</dict>
+		<key>Spoqa Han Sans Light.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			29S3Q2xkWs8eE+eMrezfbrfBh1M=
+			</data>
+			<key>hash2</key>
+			<data>
+			5u1SD91tVGN+hRXoyjXlneFhWU28o405gyTjdvd+1h0=
+			</data>
+		</dict>
 		<key>configdata.plist</key>
 		<dict>
 			<key>hash</key>
@@ -1208,37 +1204,26 @@
 			om0T8I9R6AyxgupWtgQaJso5mGhgefCB1SNqUwWFGyU=
 			</data>
 		</dict>
-		<key>inavi_rixgo_0.ttf</key>
+		<key>spoqa_han_sans_bold.ttf</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UwuZc+u7J6blEHccqAEiDJ3ucdU=
+			Iidv75NTyVx73l/vUt33oeOyN0c=
 			</data>
 			<key>hash2</key>
 			<data>
-			aQALVggRrHs+jdxDO5kJlUP4tvNv752NEFAXQgkcBTY=
+			0NuGQyuRA3V952rCb4esEyoRs91SP1aBRzVJg45TCro=
 			</data>
 		</dict>
-		<key>inavi_rixgo_b.ttf</key>
+		<key>spoqa_han_sans_regular.ttf</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fqzvuo4MCZuxv2DyWGZy4xV7Cok=
+			SSMgWLOQfBGnGbltHPHbNxBIiHo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Omv9Sj0EQhBtSkUrEMMyct5AjYGgWDWVSGJ7b8ahLZA=
-			</data>
-		</dict>
-		<key>inavi_rixgo_m.ttf</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wrOoFEwz9vURn04OoCG9VGZU5zo=
-			</data>
-			<key>hash2</key>
-			<data>
-			9KY+6Mro6ty/GCe2aOyPqZQZryBcDVRMGG/UZPvD310=
+			gRgEzAzoMt7KgO3X2jW+18aVdJpIUe71VU/xNjaPxXA=
 			</data>
 		</dict>
 	</dict>

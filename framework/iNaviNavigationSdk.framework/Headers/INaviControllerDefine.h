@@ -176,6 +176,45 @@ typedef NS_ENUM(NSUInteger, INVMapMoveMode) {
     INVMapMoveGestureStop
 };
 
+typedef NS_ENUM(NSUInteger, INVMapComponent) {
+    /**
+     모든 지도 컴포넌트 ( 아래 항목을 한번에 처리할 때 사용 )
+     */
+    ALL_COMPONENT = 0,
+    /**
+     나침반 버튼 ( 지도 이동시 )
+     */
+    ANGLE_BTN,
+    /**
+     현위치로 버튼 ( 지도 이동시 )
+     */
+    CUR_ON_BTN,
+    /**
+     확대/축소 버튼 ( 지도 이동시 )
+     */
+    ZOOM_IN_OUT_BTN,
+    /**
+     지도 하단 뷰 ( 경로 없는 경우 )
+     */
+    BOTTOM_NORMAL_VIEW,
+    /**
+     지도 하단 뷰 ( 경로 존재 하는 경우 )
+     */
+    BOTTOM_DRIVING_VIEW,
+    /**
+     목적지 도착 상단 뷰
+     */
+    TOP_ARRIVAL_VIEW,
+    /**
+     목적지 도착 하단 뷰
+     */
+    BOTTOM_ARRIVAL_VIEW,
+    /**
+     주행중 우측 교통정보 바
+     */
+    ROUTE_TRAFFIC_STATUS_BAR,
+};
+
 typedef NS_ENUM(NSInteger, INVCodeType) {
     /**
      성공

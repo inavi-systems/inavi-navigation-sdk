@@ -221,12 +221,17 @@ typedef enum  {
 +(NSInteger)currentMapLevel;
 +(VIEWMODE)getMapViewMode;
 
++(void)setMapTimeOfDestination;
+
++(BOOL)getMapTimeOfDestination;
+
 //
 + (NSMutableAttributedString*)updateDist:(NSInteger)distance;
 + (NSMutableAttributedString*)updateTime:(NSInteger)remainTime remainTime:(BOOL)typeOfTime;
 + (NSString*)loadCurAddrName;
 
-
+//
++ (BOOL)getCheckVisble:(NSInteger)viewId;
 
 
 //
