@@ -71,6 +71,12 @@ INAVI_EXPORT
 */
 @property (nonatomic) CGFloat naviVolume;
 
+/**
+ Top SafeArea영역을 지도 컴포넌트에 적용.
+ 기본값은 false입니다.
+*/
+@property (nonatomic) BOOL layoutTopSafeArea;
+
 
 - (void)initalizeNavi:(NSString*)uniqueID target:(id<INaviControllerDelegate>)target;
 
