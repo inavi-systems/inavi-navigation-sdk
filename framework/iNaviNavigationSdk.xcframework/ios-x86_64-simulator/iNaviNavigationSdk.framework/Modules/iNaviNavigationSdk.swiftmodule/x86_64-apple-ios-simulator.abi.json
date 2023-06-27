@@ -1,0 +1,2708 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InvView",
+        "printedName": "InvView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "iNaviNavigationSdk.InvViewProtocol?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvView(py)delegate",
+            "mangledName": "$s18iNaviNavigationSdk7InvViewC8delegateAA0dE8Protocol_pSgvp",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "ReferenceOwnership",
+              "AccessControl",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "iNaviNavigationSdk.InvViewProtocol?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InvViewProtocol",
+                        "printedName": "iNaviNavigationSdk.InvViewProtocol",
+                        "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvView(im)delegate",
+                "mangledName": "$s18iNaviNavigationSdk7InvViewC8delegateAA0dE8Protocol_pSgvg",
+                "moduleName": "iNaviNavigationSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "iNaviNavigationSdk.InvViewProtocol?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InvViewProtocol",
+                        "printedName": "iNaviNavigationSdk.InvViewProtocol",
+                        "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvView(im)setDelegate:",
+                "mangledName": "$s18iNaviNavigationSdk7InvViewC8delegateAA0dE8Protocol_pSgvs",
+                "moduleName": "iNaviNavigationSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18iNaviNavigationSdk7InvViewC8delegateAA0dE8Protocol_pSgvM",
+                "mangledName": "$s18iNaviNavigationSdk7InvViewC8delegateAA0dE8Protocol_pSgvM",
+                "moduleName": "iNaviNavigationSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "updateView",
+            "printedName": "updateView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18iNaviNavigationSdk7InvViewC06updateE0yyF",
+            "mangledName": "$s18iNaviNavigationSdk7InvViewC06updateE0yyF",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "point",
+            "printedName": "point(inside:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEvent",
+                    "printedName": "UIKit.UIEvent",
+                    "usr": "c:objc(cs)UIEvent"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvView(im)pointInside:withEvent:",
+            "mangledName": "$s18iNaviNavigationSdk7InvViewC5point6inside4withSbSo7CGPointV_So7UIEventCSgtF",
+            "moduleName": "iNaviNavigationSdk",
+            "overriding": true,
+            "objc_name": "pointInside:withEvent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvView",
+        "mangledName": "$s18iNaviNavigationSdk7InvViewC",
+        "moduleName": "iNaviNavigationSdk",
+        "objc_name": "InvView",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InvMenuView",
+        "printedName": "InvMenuView",
+        "declKind": "Class",
+        "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvMenuView",
+        "mangledName": "$s18iNaviNavigationSdk11InvMenuViewC",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@iNaviNavigationSdk@objc(cs)InvView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "iNaviNavigationSdk.InvView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InvMenuLayer",
+        "printedName": "InvMenuLayer",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "updateView",
+            "printedName": "updateView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvMenuLayer(im)updateView",
+            "mangledName": "$s18iNaviNavigationSdk12InvMenuLayerC10updateViewyyF",
+            "moduleName": "iNaviNavigationSdk",
+            "overriding": true,
+            "declAttributes": [
+              "Custom",
+              "Override",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startSpinMapBT",
+            "printedName": "startSpinMapBT(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvMenuLayer(im)startSpinMapBT:",
+            "mangledName": "$s18iNaviNavigationSdk12InvMenuLayerC14startSpinMapBTyySfF",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTouchMapMode",
+            "printedName": "onTouchMapMode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@iNaviNavigationSdk@objc(cs)InvMenuLayer(im)onTouchMapMode",
+            "mangledName": "$s18iNaviNavigationSdk12InvMenuLayerC14onTouchMapModeyyF",
+            "moduleName": "iNaviNavigationSdk",
+            "objc_name": "onTouchMapMode",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvMenuLayer",
+        "mangledName": "$s18iNaviNavigationSdk12InvMenuLayerC",
+        "moduleName": "iNaviNavigationSdk",
+        "objc_name": "InvMenuLayer",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@iNaviNavigationSdk@objc(cs)InvMenuView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "iNaviNavigationSdk.InvMenuView",
+          "iNaviNavigationSdk.InvView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "InvViewProtocol",
+            "printedName": "InvViewProtocol",
+            "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol",
+            "mangledName": "$s18iNaviNavigationSdk15InvViewProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IARouteSearchModule",
+        "printedName": "IARouteSearchModule",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IARouteSearchModule",
+                "printedName": "iNaviNavigationSdk.IARouteSearchModule",
+                "usr": "c:@M@iNaviNavigationSdk@objc(cs)IARouteSearchModule"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)IARouteSearchModule(cpy)shared",
+            "mangledName": "$s18iNaviNavigationSdk19IARouteSearchModuleC6sharedACvpZ",
+            "moduleName": "iNaviNavigationSdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IARouteSearchModule",
+                    "printedName": "iNaviNavigationSdk.IARouteSearchModule",
+                    "usr": "c:@M@iNaviNavigationSdk@objc(cs)IARouteSearchModule"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iNaviNavigationSdk@objc(cs)IARouteSearchModule(cm)shared",
+                "mangledName": "$s18iNaviNavigationSdk19IARouteSearchModuleC6sharedACvgZ",
+                "moduleName": "iNaviNavigationSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@iNaviNavigationSdk@objc(cs)IARouteSearchModule",
+        "mangledName": "$s18iNaviNavigationSdk19IARouteSearchModuleC",
+        "moduleName": "iNaviNavigationSdk",
+        "objc_name": "IARouteSearchModule",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InvViewProtocol",
+        "printedName": "InvViewProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onMoveMapPostion",
+            "printedName": "onMoveMapPostion(point:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol(im)onMoveMapPostionWithPoint:",
+            "mangledName": "$s18iNaviNavigationSdk15InvViewProtocolP16onMoveMapPostion5pointySo7CGPointV_tF",
+            "moduleName": "iNaviNavigationSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : iNaviNavigationSdk.InvViewProtocol>",
+            "sugared_genericSig": "<Self where Self : iNaviNavigationSdk.InvViewProtocol>",
+            "protocolReq": true,
+            "objc_name": "onMoveMapPostionWithPoint:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onClickMapIconPostion",
+            "printedName": "onClickMapIconPostion(point:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol(im)onClickMapIconPostionWithPoint:",
+            "mangledName": "$s18iNaviNavigationSdk15InvViewProtocolP21onClickMapIconPostion5pointySo7CGPointV_tF",
+            "moduleName": "iNaviNavigationSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : iNaviNavigationSdk.InvViewProtocol>",
+            "sugared_genericSig": "<Self where Self : iNaviNavigationSdk.InvViewProtocol>",
+            "protocolReq": true,
+            "objc_name": "onClickMapIconPostionWithPoint:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onDrawGroupIcon",
+            "printedName": "onDrawGroupIcon(items:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[iNaviNavigationSdk.InvGroupMember]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[iNaviNavigationSdk.InvGroupMember]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InvGroupMember",
+                        "printedName": "iNaviNavigationSdk.InvGroupMember",
+                        "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvGroupMember"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol(im)onDrawGroupIconWithItems:",
+            "mangledName": "$s18iNaviNavigationSdk15InvViewProtocolP15onDrawGroupIcon5itemsySayAA0dI6MemberCGSg_tF",
+            "moduleName": "iNaviNavigationSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : iNaviNavigationSdk.InvViewProtocol>",
+            "sugared_genericSig": "<Self where Self : iNaviNavigationSdk.InvViewProtocol>",
+            "protocolReq": true,
+            "objc_name": "onDrawGroupIconWithItems:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onZoomToFitDrawIcon",
+            "printedName": "onZoomToFitDrawIcon(items:selectIndex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[iNaviNavigationSdk.InvGroupMember]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[iNaviNavigationSdk.InvGroupMember]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InvGroupMember",
+                        "printedName": "iNaviNavigationSdk.InvGroupMember",
+                        "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvGroupMember"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol(im)onZoomToFitDrawIconWithItems:selectIndex:",
+            "mangledName": "$s18iNaviNavigationSdk15InvViewProtocolP19onZoomToFitDrawIcon5items11selectIndexySayAA0D11GroupMemberCGSg_SitF",
+            "moduleName": "iNaviNavigationSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : iNaviNavigationSdk.InvViewProtocol>",
+            "sugared_genericSig": "<Self where Self : iNaviNavigationSdk.InvViewProtocol>",
+            "protocolReq": true,
+            "objc_name": "onZoomToFitDrawIconWithItems:selectIndex:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onZoomToFitDrawDetailIcon",
+            "printedName": "onZoomToFitDrawDetailIcon(items:rectPosition:selectIndex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[CoreFoundation.CGPoint]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CoreFoundation.CGPoint]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGPoint",
+                        "printedName": "CoreFoundation.CGPoint",
+                        "usr": "c:@S@CGPoint"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[CoreFoundation.CGPoint]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CoreFoundation.CGPoint]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGPoint",
+                        "printedName": "CoreFoundation.CGPoint",
+                        "usr": "c:@S@CGPoint"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol(im)onZoomToFitDrawDetailIconWithItems:rectPosition:selectIndex:",
+            "mangledName": "$s18iNaviNavigationSdk15InvViewProtocolP25onZoomToFitDrawDetailIcon5items12rectPosition11selectIndexySaySo7CGPointVGSg_AKSitF",
+            "moduleName": "iNaviNavigationSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : iNaviNavigationSdk.InvViewProtocol>",
+            "sugared_genericSig": "<Self where Self : iNaviNavigationSdk.InvViewProtocol>",
+            "protocolReq": true,
+            "objc_name": "onZoomToFitDrawDetailIconWithItems:rectPosition:selectIndex:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateInfoLayer",
+            "printedName": "updateInfoLayer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol(im)updateInfoLayer",
+            "mangledName": "$s18iNaviNavigationSdk15InvViewProtocolP15updateInfoLayeryyF",
+            "moduleName": "iNaviNavigationSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : iNaviNavigationSdk.InvViewProtocol>",
+            "sugared_genericSig": "<Self where Self : iNaviNavigationSdk.InvViewProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTouchCurrentOn",
+            "printedName": "onTouchCurrentOn()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol(im)onTouchCurrentOn",
+            "mangledName": "$s18iNaviNavigationSdk15InvViewProtocolP16onTouchCurrentOnyyF",
+            "moduleName": "iNaviNavigationSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : iNaviNavigationSdk.InvViewProtocol>",
+            "sugared_genericSig": "<Self where Self : iNaviNavigationSdk.InvViewProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTouchZoomIn",
+            "printedName": "onTouchZoomIn()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol(im)onTouchZoomIn",
+            "mangledName": "$s18iNaviNavigationSdk15InvViewProtocolP13onTouchZoomInyyF",
+            "moduleName": "iNaviNavigationSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : iNaviNavigationSdk.InvViewProtocol>",
+            "sugared_genericSig": "<Self where Self : iNaviNavigationSdk.InvViewProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTouchZoomOut",
+            "printedName": "onTouchZoomOut()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol(im)onTouchZoomOut",
+            "mangledName": "$s18iNaviNavigationSdk15InvViewProtocolP14onTouchZoomOutyyF",
+            "moduleName": "iNaviNavigationSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : iNaviNavigationSdk.InvViewProtocol>",
+            "sugared_genericSig": "<Self where Self : iNaviNavigationSdk.InvViewProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTouchCompass",
+            "printedName": "onTouchCompass()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol(im)onTouchCompass",
+            "mangledName": "$s18iNaviNavigationSdk15InvViewProtocolP14onTouchCompassyyF",
+            "moduleName": "iNaviNavigationSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : iNaviNavigationSdk.InvViewProtocol>",
+            "sugared_genericSig": "<Self where Self : iNaviNavigationSdk.InvViewProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTouchVolume",
+            "printedName": "onTouchVolume()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol(im)onTouchVolume",
+            "mangledName": "$s18iNaviNavigationSdk15InvViewProtocolP13onTouchVolumeyyF",
+            "moduleName": "iNaviNavigationSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : iNaviNavigationSdk.InvViewProtocol>",
+            "sugared_genericSig": "<Self where Self : iNaviNavigationSdk.InvViewProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTouchMapMode",
+            "printedName": "onTouchMapMode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol(im)onTouchMapMode",
+            "mangledName": "$s18iNaviNavigationSdk15InvViewProtocolP14onTouchMapModeyyF",
+            "moduleName": "iNaviNavigationSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : iNaviNavigationSdk.InvViewProtocol>",
+            "sugared_genericSig": "<Self where Self : iNaviNavigationSdk.InvViewProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTouchReRoute",
+            "printedName": "onTouchReRoute()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol(im)onTouchReRoute",
+            "mangledName": "$s18iNaviNavigationSdk15InvViewProtocolP14onTouchReRouteyyF",
+            "moduleName": "iNaviNavigationSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : iNaviNavigationSdk.InvViewProtocol>",
+            "sugared_genericSig": "<Self where Self : iNaviNavigationSdk.InvViewProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTouchMenu",
+            "printedName": "onTouchMenu()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol(im)onTouchMenu",
+            "mangledName": "$s18iNaviNavigationSdk15InvViewProtocolP11onTouchMenuyyF",
+            "moduleName": "iNaviNavigationSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : iNaviNavigationSdk.InvViewProtocol>",
+            "sugared_genericSig": "<Self where Self : iNaviNavigationSdk.InvViewProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTouchMain",
+            "printedName": "onTouchMain()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol(im)onTouchMain",
+            "mangledName": "$s18iNaviNavigationSdk15InvViewProtocolP11onTouchMainyyF",
+            "moduleName": "iNaviNavigationSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : iNaviNavigationSdk.InvViewProtocol>",
+            "sugared_genericSig": "<Self where Self : iNaviNavigationSdk.InvViewProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTouchGuideCancel",
+            "printedName": "onTouchGuideCancel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol(im)onTouchGuideCancel",
+            "mangledName": "$s18iNaviNavigationSdk15InvViewProtocolP18onTouchGuideCancelyyF",
+            "moduleName": "iNaviNavigationSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : iNaviNavigationSdk.InvViewProtocol>",
+            "sugared_genericSig": "<Self where Self : iNaviNavigationSdk.InvViewProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol",
+        "mangledName": "$s18iNaviNavigationSdk15InvViewProtocolP",
+        "moduleName": "iNaviNavigationSdk",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InvGroupMember",
+        "printedName": "InvGroupMember",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InvGroupMember",
+                "printedName": "iNaviNavigationSdk.InvGroupMember",
+                "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvGroupMember"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvGroupMember(im)init",
+            "mangledName": "$s18iNaviNavigationSdk14InvGroupMemberCACycfc",
+            "moduleName": "iNaviNavigationSdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvGroupMember",
+        "mangledName": "$s18iNaviNavigationSdk14InvGroupMemberC",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InvGuideLayer",
+        "printedName": "InvGuideLayer",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "updateView",
+            "printedName": "updateView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvGuideLayer(im)updateView",
+            "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC10updateViewyyF",
+            "moduleName": "iNaviNavigationSdk",
+            "overriding": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "Override",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutVisbleUpdate",
+            "printedName": "layoutVisbleUpdate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvGuideLayer(im)layoutVisbleUpdate",
+            "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC18layoutVisbleUpdateyyF",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateGuideInfos",
+            "printedName": "updateGuideInfos(_:nextTurnInfo:laneInfo:roadType:isSimulationMode:isZoomVisible:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "iNaviNavigationSdk.GuideTurnInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GuideTurnInfo",
+                    "printedName": "iNaviNavigationSdk.GuideTurnInfo",
+                    "usr": "c:objc(cs)GuideTurnInfo"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "iNaviNavigationSdk.GuideTurnInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GuideTurnInfo",
+                    "printedName": "iNaviNavigationSdk.GuideTurnInfo",
+                    "usr": "c:objc(cs)GuideTurnInfo"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "iNaviNavigationSdk.GuideLaneInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GuideLaneInfo",
+                    "printedName": "iNaviNavigationSdk.GuideLaneInfo",
+                    "usr": "c:objc(cs)GuideLaneInfo"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ROAD_TYPE",
+                "printedName": "iNaviNavigationSdk.ROAD_TYPE",
+                "usr": "c:@EA@ROAD_TYPE"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvGuideLayer(im)updateGuideInfos:nextTurnInfo:laneInfo:roadType:isSimulationMode:isZoomVisible:",
+            "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC06updateE5Infos_12nextTurnInfo04laneK08roadType16isSimulationMode0O11ZoomVisibleySo0ejK0CSg_ALSo0e4LaneK0CSgSo9ROAD_TYPEaS2btF",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateMMCInfo",
+            "printedName": "updateMMCInfo(_:mmcModuleData:isSimulationMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "iNaviNavigationSdk.IAMMCDataInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IAMMCDataInfo",
+                    "printedName": "iNaviNavigationSdk.IAMMCDataInfo",
+                    "usr": "c:objc(cs)IAMMCDataInfo"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "iNaviNavigationSdk.MMCModuleData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MMCModuleData",
+                    "printedName": "iNaviNavigationSdk.MMCModuleData",
+                    "usr": "c:objc(cs)MMCModuleData"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvGuideLayer(im)updateMMCInfo:mmcModuleData:isSimulationMode:",
+            "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC13updateMMCInfo_13mmcModuleData16isSimulationModeySo13IAMMCDataInfoCSg_So09MMCModuleK0CSgSbtF",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "update",
+            "printedName": "update(_:safeInfo:roadType:nowSpeed:isSimulationMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "iNaviNavigationSdk.GuideCamInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GuideCamInfo",
+                    "printedName": "iNaviNavigationSdk.GuideCamInfo",
+                    "usr": "c:objc(cs)GuideCamInfo"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "iNaviNavigationSdk.GuideSafeInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GuideSafeInfo",
+                    "printedName": "iNaviNavigationSdk.GuideSafeInfo",
+                    "usr": "c:objc(cs)GuideSafeInfo"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ROAD_TYPE",
+                "printedName": "iNaviNavigationSdk.ROAD_TYPE",
+                "usr": "c:@EA@ROAD_TYPE"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvGuideLayer(im)update:safeInfo:roadType:nowSpeed:isSimulationMode:",
+            "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC6update_8safeInfo8roadType8nowSpeed16isSimulationModeySo0e3CamI0CSg_So0e4SafeI0CSgSo9ROAD_TYPEaSiSbtF",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "highWayInfoList",
+            "printedName": "highWayInfoList(_:isHighWayInfo:isZoomVisible:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[iNaviNavigationSdk.GuideHigiwayInfo]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[iNaviNavigationSdk.GuideHigiwayInfo]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GuideHigiwayInfo",
+                        "printedName": "iNaviNavigationSdk.GuideHigiwayInfo",
+                        "usr": "c:objc(cs)GuideHigiwayInfo"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvGuideLayer(im)highWayInfoList:isHighWayInfo:isZoomVisible:",
+            "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC15highWayInfoList_06isHighhI00K11ZoomVisibleySaySo0e7HigiwayI0CGSg_So8NSNumberCSgSbtF",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didRealEndInfo",
+            "printedName": "didRealEndInfo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvGuideLayer(im)didRealEndInfo",
+            "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC14didRealEndInfoyyF",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateVmsView",
+            "printedName": "updateVmsView(_:msg:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvGuideLayer(im)updateVmsView:msg:",
+            "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC13updateVmsView_3msgySSSg_AFtF",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateProgressBar",
+            "printedName": "updateProgressBar(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvGuideLayer(im)updateProgressBar:",
+            "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC17updateProgressBaryySiF",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBottomHeight",
+            "printedName": "getBottomHeight()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvGuideLayer(im)getBottomHeight",
+            "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC15getBottomHeight12CoreGraphics7CGFloatVyF",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTouchMain",
+            "printedName": "onTouchMain()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@iNaviNavigationSdk@objc(cs)InvGuideLayer(im)onTouchMain",
+            "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC11onTouchMainyyF",
+            "moduleName": "iNaviNavigationSdk",
+            "objc_name": "onTouchMain",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTouchMenu",
+            "printedName": "onTouchMenu()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@iNaviNavigationSdk@objc(cs)InvGuideLayer(im)onTouchMenu",
+            "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC11onTouchMenuyyF",
+            "moduleName": "iNaviNavigationSdk",
+            "objc_name": "onTouchMenu",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTouchGuideCancel",
+            "printedName": "onTouchGuideCancel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@iNaviNavigationSdk@objc(cs)InvGuideLayer(im)onTouchGuideCancel",
+            "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC07onTouchE6CancelyyF",
+            "moduleName": "iNaviNavigationSdk",
+            "objc_name": "onTouchGuideCancel",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTouchVolume",
+            "printedName": "onTouchVolume()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@iNaviNavigationSdk@objc(cs)InvGuideLayer(im)onTouchVolume",
+            "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC13onTouchVolumeyyF",
+            "moduleName": "iNaviNavigationSdk",
+            "objc_name": "onTouchVolume",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTouchReRoute",
+            "printedName": "onTouchReRoute()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@iNaviNavigationSdk@objc(cs)InvGuideLayer(im)onTouchReRoute",
+            "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC14onTouchReRouteyyF",
+            "moduleName": "iNaviNavigationSdk",
+            "objc_name": "onTouchReRoute",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvGuideLayer",
+        "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC",
+        "moduleName": "iNaviNavigationSdk",
+        "objc_name": "InvGuideLayer",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@iNaviNavigationSdk@objc(cs)InvView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "iNaviNavigationSdk.InvView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "InvViewProtocol",
+            "printedName": "InvViewProtocol",
+            "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol",
+            "mangledName": "$s18iNaviNavigationSdk15InvViewProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSObject",
+        "printedName": "NSObject",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "className",
+            "printedName": "className",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So8NSObjectC18iNaviNavigationSdkE9classNameSSvpZ",
+            "mangledName": "$sSo8NSObjectC18iNaviNavigationSdkE9classNameSSvpZ",
+            "moduleName": "iNaviNavigationSdk",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8NSObjectC18iNaviNavigationSdkE9classNameSSvgZ",
+                "mangledName": "$sSo8NSObjectC18iNaviNavigationSdkE9classNameSSvgZ",
+                "moduleName": "iNaviNavigationSdk",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSObject",
+        "moduleName": "ObjectiveC",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "NSObject",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvTurnView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 532,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvTurnView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 635,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvBottomInfoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 846,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 403,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvSafeView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 543,
+      "length": 2,
+      "value": "33"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvSafeView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 577,
+      "length": 2,
+      "value": "56"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvSafeView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 607,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvSafeView.swift",
+      "kind": "FloatLiteral",
+      "offset": 641,
+      "length": 4,
+      "value": "17.6"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvSafeView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 696,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvHighWayView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 320,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvHighWayView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 348,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvHighWayView.swift",
+      "kind": "Array",
+      "offset": 429,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvHighWayView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 462,
+      "length": 2,
+      "value": "62"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvHighWayView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 496,
+      "length": 2,
+      "value": "85"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvHighWayView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 528,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvLaneView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 709,
+      "length": 2,
+      "value": "77"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvLaneView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 781,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvArriveView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 230,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvArriveView.swift",
+      "kind": "StringLiteral",
+      "offset": 255,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvArriveView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 283,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvArriveView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 308,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvArriveView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 333,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvVmsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvVmsView.swift",
+      "kind": "StringLiteral",
+      "offset": 317,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvSpeedView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 599,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvSpeedView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 628,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvSpeedView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 656,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvSpeedView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 686,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Extension\/ViewExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 1765,
+      "length": 22,
+      "value": "\"rotationanimationkey\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Extension\/ViewExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1824,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvZoomView.swift",
+      "kind": "StringLiteral",
+      "offset": 384,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvViewProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 1135,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvViewProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 1159,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvViewProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 1185,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvViewProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 1213,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvViewProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 1245,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvViewProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 1280,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvViewProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 1311,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvViewProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 1342,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvViewProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 1375,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvViewProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 1403,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvViewProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 1431,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvViewProtocol.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1465,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvViewProtocol.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1503,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvViewProtocol.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1535,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvViewProtocol.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1571,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvViewProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 1617,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvBottomMainView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 241,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvBottomMainView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 274,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvBottomMainView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 307,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvBottomSimulInfoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 697,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvBottomSimulInfoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 731,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvBottomSimulInfoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 754,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvBottomSimulInfoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 781,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvBottomSimulInfoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 816,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvBottomSimulInfoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 846,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvBottomSimulInfoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 875,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvBottomSimulInfoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 908,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvRouteTrafficBarView.swift",
+      "kind": "FloatLiteral",
+      "offset": 475,
+      "length": 5,
+      "value": "0.001"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvRouteTrafficBarView.swift",
+      "kind": "Array",
+      "offset": 526,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvRouteTrafficBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 677,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

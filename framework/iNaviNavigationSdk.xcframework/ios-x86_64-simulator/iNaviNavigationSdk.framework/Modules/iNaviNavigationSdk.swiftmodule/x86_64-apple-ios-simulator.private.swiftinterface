@@ -1,0 +1,77 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name iNaviNavigationSdk
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@_exported import iNaviNavigationSdk
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(InvView) @_Concurrency.MainActor(unsafe) public class InvView : UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) weak public var delegate: (any iNaviNavigationSdk.InvViewProtocol)?
+  @_Concurrency.MainActor(unsafe) public func updateView()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func point(inside point: CoreFoundation.CGPoint, with event: UIKit.UIEvent?) -> Swift.Bool
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class InvMenuView : iNaviNavigationSdk.InvView {
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(InvMenuLayer) @_Concurrency.MainActor(unsafe) public class InvMenuLayer : iNaviNavigationSdk.InvMenuView {
+  @objc @_Concurrency.MainActor(unsafe) override public func updateView()
+  @objc @_Concurrency.MainActor(unsafe) public func startSpinMapBT(_ angle: Swift.Float)
+  @objc deinit
+}
+extension iNaviNavigationSdk.InvMenuLayer : iNaviNavigationSdk.InvViewProtocol {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onTouchMapMode()
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(IARouteSearchModule) public class IARouteSearchModule : ObjectiveC.NSObject {
+  @objc public static let shared: iNaviNavigationSdk.IARouteSearchModule
+  @objc deinit
+}
+@objc public protocol InvViewProtocol {
+  @objc optional func onMoveMapPostion(point: CoreFoundation.CGPoint)
+  @objc optional func onClickMapIconPostion(point: CoreFoundation.CGPoint)
+  @objc optional func onDrawGroupIcon(items: [iNaviNavigationSdk.InvGroupMember]?)
+  @objc optional func onZoomToFitDrawIcon(items: [iNaviNavigationSdk.InvGroupMember]?, selectIndex: ObjectiveC.NSInteger)
+  @objc optional func onZoomToFitDrawDetailIcon(items: [CoreFoundation.CGPoint]?, rectPosition: [CoreFoundation.CGPoint]?, selectIndex: ObjectiveC.NSInteger)
+  @objc optional func updateInfoLayer()
+  @objc optional func onTouchCurrentOn()
+  @objc optional func onTouchZoomIn()
+  @objc optional func onTouchZoomOut()
+  @objc optional func onTouchCompass()
+  @objc optional func onTouchVolume()
+  @objc optional func onTouchMapMode()
+  @objc optional func onTouchReRoute()
+  @objc optional func onTouchMenu()
+  @objc optional func onTouchMain()
+  @objc optional func onTouchGuideCancel()
+}
+@_inheritsConvenienceInitializers @objc public class InvGroupMember : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension ObjectiveC.NSObject {
+  public class var className: Swift.String {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(InvGuideLayer) @_Concurrency.MainActor(unsafe) public class InvGuideLayer : iNaviNavigationSdk.InvView {
+  @objc @_Concurrency.MainActor(unsafe) override public func updateView()
+  @objc @_Concurrency.MainActor(unsafe) public func layoutVisbleUpdate()
+  @objc @_Concurrency.MainActor(unsafe) public func updateGuideInfos(_ turnInfo: iNaviNavigationSdk.GuideTurnInfo?, nextTurnInfo: iNaviNavigationSdk.GuideTurnInfo?, laneInfo: iNaviNavigationSdk.GuideLaneInfo?, roadType road_type: iNaviNavigationSdk.ROAD_TYPE, isSimulationMode: Swift.Bool, isZoomVisible: Swift.Bool)
+  @objc @_Concurrency.MainActor(unsafe) public func updateMMCInfo(_ mmcInfo: iNaviNavigationSdk.IAMMCDataInfo?, mmcModuleData MMCModuleData: iNaviNavigationSdk.MMCModuleData?, isSimulationMode: Swift.Bool)
+  @objc @_Concurrency.MainActor(unsafe) public func update(_ camInfo: iNaviNavigationSdk.GuideCamInfo?, safeInfo: iNaviNavigationSdk.GuideSafeInfo?, roadType roadtype: iNaviNavigationSdk.ROAD_TYPE, nowSpeed speed: Swift.Int, isSimulationMode: Swift.Bool)
+  @objc @_Concurrency.MainActor(unsafe) public func highWayInfoList(_ highWayInfoList: [iNaviNavigationSdk.GuideHigiwayInfo]?, isHighWayInfo: Foundation.NSNumber?, isZoomVisible: Swift.Bool)
+  @objc @_Concurrency.MainActor(unsafe) public func didRealEndInfo()
+  @objc @_Concurrency.MainActor(unsafe) public func updateVmsView(_ vid: Swift.String?, msg: Swift.String?)
+  @objc @_Concurrency.MainActor(unsafe) public func updateProgressBar(_ percent: Swift.Int)
+  @objc @_Concurrency.MainActor(unsafe) public func getBottomHeight() -> CoreFoundation.CGFloat
+  @objc deinit
+}
+extension iNaviNavigationSdk.InvGuideLayer : iNaviNavigationSdk.InvViewProtocol {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onTouchMain()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onTouchMenu()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onTouchGuideCancel()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onTouchVolume()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onTouchReRoute()
+}
