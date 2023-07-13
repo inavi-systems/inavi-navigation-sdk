@@ -135,3 +135,6 @@ typedef enum{
 #define xKey  @"x"
 #define yKey  @"y"
 
+
+#define SAMSUNG_SHI @"SAMSUNG_SHI"
+

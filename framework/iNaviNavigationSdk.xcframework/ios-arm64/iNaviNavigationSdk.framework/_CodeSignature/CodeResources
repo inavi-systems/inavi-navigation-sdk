@@ -154,7 +154,7 @@
 		</data>
 		<key>Headers/common_define.h</key>
 		<data>
-		S/hS0fTE+2tkxG6Twh1FazjNYjA=
+		SEmNKU7IUF7z/B0mVvVdbMah73Q=
 		</data>
 		<key>Headers/iNaviNavigationSdk-Swift.h</key>
 		<data>
@@ -166,7 +166,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ebGP6h8W1qAh6Daabmc9ME4wH8k=
+		k7qNP0ESInYPRHiJ452HY8ICj0o=
 		</data>
 		<key>InvArriveView.nib</key>
 		<data>
@@ -267,6 +267,10 @@
 		<key>configdata.plist</key>
 		<data>
 		FxbDhbNVrjbe/61RdvbHjuH6eDk=
+		</data>
+		<key>inavi_rixgo_0.ttf</key>
+		<data>
+		UwuZc+u7J6blEHccqAEiDJ3ucdU=
 		</data>
 		<key>spoqa_han_sans_bold.ttf</key>
 		<data>
@@ -542,7 +546,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2RIrBuCxSuD/A+ihwFvtJj2ls8gXT2CwV3vp3Oqz2IU=
+			kUG+Vu6z8SlxJCh5Io6z4KevlzBYVDhnenWaR2dD/MU=
 			</data>
 		</dict>
 		<key>Headers/iNaviNavigationSdk-Swift.h</key>
@@ -732,6 +736,13 @@
 			<key>hash2</key>
 			<data>
 			om0T8I9R6AyxgupWtgQaJso5mGhgefCB1SNqUwWFGyU=
+			</data>
+		</dict>
+		<key>inavi_rixgo_0.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aQALVggRrHs+jdxDO5kJlUP4tvNv752NEFAXQgkcBTY=
 			</data>
 		</dict>
 		<key>spoqa_han_sans_bold.ttf</key>
