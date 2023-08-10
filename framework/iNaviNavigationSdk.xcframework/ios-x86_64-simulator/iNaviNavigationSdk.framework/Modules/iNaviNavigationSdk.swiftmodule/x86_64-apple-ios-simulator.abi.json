@@ -26,6 +26,23 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -436,6 +453,23 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -784,6 +818,583 @@
         "moduleName": "iNaviNavigationSdk",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ShiManager",
+        "printedName": "ShiManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sharedInstance",
+            "printedName": "sharedInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ShiManager",
+                "printedName": "iNaviNavigationSdk.ShiManager",
+                "usr": "c:@M@iNaviNavigationSdk@objc(cs)ShiManager"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)ShiManager(cpy)sharedInstance",
+            "mangledName": "$s18iNaviNavigationSdk10ShiManagerC14sharedInstanceACvpZ",
+            "moduleName": "iNaviNavigationSdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShiManager",
+                    "printedName": "iNaviNavigationSdk.ShiManager",
+                    "usr": "c:@M@iNaviNavigationSdk@objc(cs)ShiManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iNaviNavigationSdk@objc(cs)ShiManager(cm)sharedInstance",
+                "mangledName": "$s18iNaviNavigationSdk10ShiManagerC14sharedInstanceACvgZ",
+                "moduleName": "iNaviNavigationSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isShiMode",
+            "printedName": "isShiMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)ShiManager(py)isShiMode",
+            "mangledName": "$s18iNaviNavigationSdk10ShiManagerC02isD4ModeSbvp",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iNaviNavigationSdk@objc(cs)ShiManager(im)isShiMode",
+                "mangledName": "$s18iNaviNavigationSdk10ShiManagerC02isD4ModeSbvg",
+                "moduleName": "iNaviNavigationSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iNaviNavigationSdk@objc(cs)ShiManager(im)setIsShiMode:",
+                "mangledName": "$s18iNaviNavigationSdk10ShiManagerC02isD4ModeSbvs",
+                "moduleName": "iNaviNavigationSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18iNaviNavigationSdk10ShiManagerC02isD4ModeSbvM",
+                "mangledName": "$s18iNaviNavigationSdk10ShiManagerC02isD4ModeSbvM",
+                "moduleName": "iNaviNavigationSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "loadShiData",
+            "printedName": "loadShiData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)ShiManager(im)loadShiData",
+            "mangledName": "$s18iNaviNavigationSdk10ShiManagerC04loadD4DatayyF",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getShiManagerWarning",
+            "printedName": "getShiManagerWarning(mmc:shiMember:speed:isSimulMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MMCModuleData",
+                "printedName": "iNaviNavigationSdk.MMCModuleData",
+                "usr": "c:objc(cs)MMCModuleData"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "iNaviNavigationSdk.INaviShiMember?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "INaviShiMember",
+                    "printedName": "iNaviNavigationSdk.INaviShiMember",
+                    "usr": "c:objc(cs)INaviShiMember"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)ShiManager(im)getShiManagerWarningWithMmc:shiMember:speed:isSimulMode:",
+            "mangledName": "$s18iNaviNavigationSdk10ShiManagerC03getdE7Warning3mmc9shiMember5speed11isSimulModeSiSo13MMCModuleDataC_So05INavidJ0CSgSiSbtF",
+            "moduleName": "iNaviNavigationSdk",
+            "objc_name": "getShiManagerWarningWithMmc:shiMember:speed:isSimulMode:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getShiManagerNoDriveWarning",
+            "printedName": "getShiManagerNoDriveWarning()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)ShiManager(im)getShiManagerNoDriveWarning",
+            "mangledName": "$s18iNaviNavigationSdk10ShiManagerC03getdE14NoDriveWarningSbyF",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkShiManagerDisasterWarning",
+            "printedName": "checkShiManagerDisasterWarning()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)ShiManager(im)checkShiManagerDisasterWarning",
+            "mangledName": "$s18iNaviNavigationSdk10ShiManagerC05checkdE15DisasterWarningyyF",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getShiManagerNoWayPoint",
+            "printedName": "getShiManagerNoWayPoint()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)ShiManager(im)getShiManagerNoWayPoint",
+            "mangledName": "$s18iNaviNavigationSdk10ShiManagerC03getdE10NoWayPointyyF",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getShiManagerNoWayPointEnterCheck",
+            "printedName": "getShiManagerNoWayPointEnterCheck(mmc:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MMCModuleData",
+                "printedName": "iNaviNavigationSdk.MMCModuleData",
+                "usr": "c:objc(cs)MMCModuleData"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18iNaviNavigationSdk10ShiManagerC03getdE20NoWayPointEnterCheck3mmcSbSo13MMCModuleDataC_tF",
+            "mangledName": "$s18iNaviNavigationSdk10ShiManagerC03getdE20NoWayPointEnterCheck3mmcSbSo13MMCModuleDataC_tF",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setShiGpsInfo",
+            "printedName": "setShiGpsInfo(mmc:speed:angle:pathVolnYn:shiMember:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MMCModuleData",
+                "printedName": "iNaviNavigationSdk.MMCModuleData",
+                "usr": "c:objc(cs)MMCModuleData"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "iNaviNavigationSdk.INaviShiMember?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "INaviShiMember",
+                    "printedName": "iNaviNavigationSdk.INaviShiMember",
+                    "usr": "c:objc(cs)INaviShiMember"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)ShiManager(im)setShiGpsInfoWithMmc:speed:angle:pathVolnYn:shiMember:",
+            "mangledName": "$s18iNaviNavigationSdk10ShiManagerC03setD7GpsInfo3mmc5speed5angle10pathVolnYn9shiMemberySo13MMCModuleDataC_S2iSbSo05INavidP0CSgtF",
+            "moduleName": "iNaviNavigationSdk",
+            "objc_name": "setShiGpsInfoWithMmc:speed:angle:pathVolnYn:shiMember:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getShiPoiData",
+            "printedName": "getShiPoiData(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "iNaviNavigationSdk.INaviRoutePtItem?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "INaviRoutePtItem",
+                    "printedName": "iNaviNavigationSdk.INaviRoutePtItem",
+                    "usr": "c:objc(cs)INaviRoutePtItem"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)ShiManager(im)getShiPoiData:",
+            "mangledName": "$s18iNaviNavigationSdk10ShiManagerC03getD7PoiDataySo16INaviRoutePtItemCSgSSF",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getShiPoiDataAry",
+            "printedName": "getShiPoiDataAry(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[iNaviNavigationSdk.INaviRoutePtItem]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[iNaviNavigationSdk.INaviRoutePtItem]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "INaviRoutePtItem",
+                        "printedName": "iNaviNavigationSdk.INaviRoutePtItem",
+                        "usr": "c:objc(cs)INaviRoutePtItem"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)ShiManager(im)getShiPoiDataAry:",
+            "mangledName": "$s18iNaviNavigationSdk10ShiManagerC03getD10PoiDataAryySaySo16INaviRoutePtItemCGSgSaySSGF",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ShiManager",
+                "printedName": "iNaviNavigationSdk.ShiManager",
+                "usr": "c:@M@iNaviNavigationSdk@objc(cs)ShiManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)ShiManager(im)init",
+            "mangledName": "$s18iNaviNavigationSdk10ShiManagerCACycfc",
+            "moduleName": "iNaviNavigationSdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@iNaviNavigationSdk@objc(cs)ShiManager",
+        "mangledName": "$s18iNaviNavigationSdk10ShiManagerC",
+        "moduleName": "iNaviNavigationSdk",
+        "objc_name": "ShiManager",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
         ]
       },
       {
@@ -1429,6 +2040,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1436,6 +2057,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk"
       },
       {
         "kind": "Import",
@@ -2299,6 +2937,118 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/ResponseDefine.swift",
+      "kind": "StringLiteral",
+      "offset": 644,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/ResponseDefine.swift",
+      "kind": "StringLiteral",
+      "offset": 670,
+      "length": 5,
+      "value": "\"501\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/ResponseDefine.swift",
+      "kind": "StringLiteral",
+      "offset": 697,
+      "length": 5,
+      "value": "\"800\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/ResponseDefine.swift",
+      "kind": "StringLiteral",
+      "offset": 725,
+      "length": 5,
+      "value": "\"900\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/ResponseDefine.swift",
+      "kind": "StringLiteral",
+      "offset": 752,
+      "length": 5,
+      "value": "\"920\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/ResponseDefine.swift",
+      "kind": "StringLiteral",
+      "offset": 786,
+      "length": 5,
+      "value": "\"901\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/ResponseDefine.swift",
+      "kind": "StringLiteral",
+      "offset": 824,
+      "length": 5,
+      "value": "\"972\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/ResponseDefine.swift",
+      "kind": "StringLiteral",
+      "offset": 855,
+      "length": 5,
+      "value": "\"999\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/ResponseDefine.swift",
+      "kind": "StringLiteral",
+      "offset": 644,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/ResponseDefine.swift",
+      "kind": "StringLiteral",
+      "offset": 670,
+      "length": 5,
+      "value": "\"501\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/ResponseDefine.swift",
+      "kind": "StringLiteral",
+      "offset": 697,
+      "length": 5,
+      "value": "\"800\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/ResponseDefine.swift",
+      "kind": "StringLiteral",
+      "offset": 725,
+      "length": 5,
+      "value": "\"900\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/ResponseDefine.swift",
+      "kind": "StringLiteral",
+      "offset": 752,
+      "length": 5,
+      "value": "\"920\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/ResponseDefine.swift",
+      "kind": "StringLiteral",
+      "offset": 786,
+      "length": 5,
+      "value": "\"901\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/ResponseDefine.swift",
+      "kind": "StringLiteral",
+      "offset": 824,
+      "length": 5,
+      "value": "\"972\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/ResponseDefine.swift",
+      "kind": "StringLiteral",
+      "offset": 855,
+      "length": 5,
+      "value": "\"999\""
+    },
+    {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvView.swift",
       "kind": "BooleanLiteral",
       "offset": 403,
@@ -2495,6 +3245,258 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 212,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 236,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 212,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 236,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 212,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 236,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 280,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 362,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "StringLiteral",
+      "offset": 412,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 431,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 472,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 505,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 540,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "StringLiteral",
+      "offset": 598,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "StringLiteral",
+      "offset": 667,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "StringLiteral",
+      "offset": 744,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "StringLiteral",
+      "offset": 784,
+      "length": 3,
+      "value": "\"N\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "StringLiteral",
+      "offset": 834,
+      "length": 3,
+      "value": "\"N\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "StringLiteral",
+      "offset": 881,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "StringLiteral",
+      "offset": 943,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "StringLiteral",
+      "offset": 968,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "StringLiteral",
+      "offset": 992,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1016,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1040,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1064,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "Array",
+      "offset": 1135,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1291,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "Array",
+      "offset": 1342,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "Array",
+      "offset": 1385,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "Array",
+      "offset": 1423,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "Array",
+      "offset": 1547,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "Array",
+      "offset": 1619,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1668,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1793,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12589,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvViewProtocol.swift",
       "kind": "StringLiteral",
       "offset": 1135,
@@ -2607,6 +3609,181 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 961,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 1129,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 1296,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 1388,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 1453,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 1520,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 1574,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 1631,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 1685,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 1739,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 1805,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 1867,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 1933,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 2022,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 2111,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 2173,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 2263,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 2328,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 2394,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 2451,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 2505,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 2557,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 2649,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 2706,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvBottomMainView.swift",
       "kind": "IntegerLiteral",
       "offset": 241,
@@ -2626,6 +3803,76 @@
       "offset": 307,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/AirAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 390,
+      "length": 24,
+      "value": "\"\/shiSdk\/getTFlimitInfo\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/AirAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 439,
+      "length": 25,
+      "value": "\"\/shiSdk\/getDrivStopInfo\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/AirAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 489,
+      "length": 25,
+      "value": "\"\/shiSdk\/getDisasterInfo\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/AirAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 537,
+      "length": 20,
+      "value": "\"\/shiSdk\/sendShiGps\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/AirAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 390,
+      "length": 24,
+      "value": "\"\/shiSdk\/getTFlimitInfo\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/AirAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 439,
+      "length": 25,
+      "value": "\"\/shiSdk\/getDrivStopInfo\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/AirAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 489,
+      "length": 25,
+      "value": "\"\/shiSdk\/getDisasterInfo\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/AirAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 537,
+      "length": 20,
+      "value": "\"\/shiSdk\/sendShiGps\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/AirAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 2029,
+      "length": 7,
+      "value": "\"https\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/AirAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 2226,
+      "length": 11,
+      "value": "\"\/INaviAir\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvBottomSimulInfoView.swift",

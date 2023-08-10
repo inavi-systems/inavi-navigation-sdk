@@ -77,6 +77,8 @@
 + (UIColor*)Color_divider_03;
 + (UIColor*)Color_shadow;
 
++ (UIColor*)Color_Warning_Orange;
+
 
 
 // AIR 컬러코드

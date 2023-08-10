@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		k/IdKe5Y6Jk3JdOnK5L7V00I1Hs=
+		lSKlEYoH4Y921KbifHY9HYxskS8=
 		</data>
 		<key>Headers/AIR_ChangeType.h</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Headers/IAColor.h</key>
 		<data>
-		Z4yy1D5oFcoxEsCAiupbqhlSWzw=
+		mmoRN+sB7T2lfrM0tL3EFFhqtcY=
 		</data>
 		<key>Headers/IACommon.h</key>
 		<data>
-		ZMPRveTeQUmOG32m86ZMvOyYTTQ=
+		bF53x31R/WjD/ZeKgIRkqPHG7wI=
 		</data>
 		<key>Headers/IAGuidanceDefine.h</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/INaviController.h</key>
 		<data>
-		vgfumwcZzICrNLZTInk82ea5jnw=
+		f35xonLkJOLllHEo7hV7V/i7vQc=
 		</data>
 		<key>Headers/INaviControllerDefine.h</key>
 		<data>
@@ -116,6 +116,10 @@
 		<data>
 		piNrrsCXDjMJxfLUo5NUTsxqSBY=
 		</data>
+		<key>Headers/INaviShiMember.h</key>
+		<data>
+		6TBNdii/kQdm3ToP5FO4kW9tAc8=
+		</data>
 		<key>Headers/InvTrafficBarData.h</key>
 		<data>
 		tCfZFQ/xYqe9315D9aUTC6ooSmg=
@@ -158,15 +162,15 @@
 		</data>
 		<key>Headers/iNaviNavigationSdk-Swift.h</key>
 		<data>
-		wBGEPqhDwJ1a3YSJVW90LQrXWc0=
+		Qi10cmQqntY1khumulEoZDZAjL4=
 		</data>
 		<key>Headers/iNaviNavigationSdk.h</key>
 		<data>
-		JxG172MDKmXn/pV0JP2ANMQaiag=
+		YgD2DBBVpQSqqjOzorKtMgFedoY=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/XNkfK49AOP+XkgEtYdnEQyIAPc=
+		Bq6wJF4JE8eMvWiHvIH6WApoh6s=
 		</data>
 		<key>InvArriveView.nib</key>
 		<data>
@@ -234,35 +238,31 @@
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		kQgbUusOFAJIbOBwx4PsOCSqCo4=
+		vPj8O1XewIJxITU6gnqlTEOX1m0=
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		FxIZacmLVghSB8zSWMrmPjF2LGw=
+		39CPmcZFlLC5rWs2N110XBcKu1I=
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		3rtVZnGYiwV3oYqqc18gSzJkHkI=
+		x4sYooa2zk1JwAgQC17JpJ+Iugc=
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		up0i/n3UkG9gk5KDjUnzZcg3lOU=
+		r5YUdDm9GMs09Kh+ihJ+uOA5EmA=
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		3rtVZnGYiwV3oYqqc18gSzJkHkI=
+		x4sYooa2zk1JwAgQC17JpJ+Iugc=
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zx/EsWK3mw1YKslIbmWFWD09PWw=
+		OJkkuaVspPEY8M6z1UZh0MnmWsA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		J6BThIVjg7n5uOqke6hDCbnts40=
-		</data>
-		<key>Spoqa Han Sans Light.ttf</key>
-		<data>
-		29S3Q2xkWs8eE+eMrezfbrfBh1M=
 		</data>
 		<key>configdata.plist</key>
 		<data>
@@ -287,7 +287,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1bKTkxrQ1LzKKVBgB/RguA/SMA5FxCXRY+80fEhnOpg=
+			MrkH+tYIIUbmZk0xbJTUNduwDDejiQTDkgeRBOvwN4g=
 			</data>
 		</dict>
 		<key>Headers/AIR_ChangeType.h</key>
@@ -350,14 +350,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			in7iJngKDM/U786WB0FTYkWlMLwpGAqmGP3VNIUlkvI=
+			/ti+ZhQFl4GMWarSf9rGyEgdN1mDYpP5dnxIoX8C+7o=
 			</data>
 		</dict>
 		<key>Headers/IACommon.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			St8aW9WMdOmj4MlyFAFu0cz/r/LzAH3CiRVb5o3gTDA=
+			CPzyMmMxJQ1CwG0lPt2SJfgal0qvike628ZXQHXJdwM=
 			</data>
 		</dict>
 		<key>Headers/IAGuidanceDefine.h</key>
@@ -378,7 +378,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/g6aFPlczxhfl1/OO/T65lazwBFlAeDiSZ4Rhe1Ej6o=
+			LTnboQhSJNBzWuNNSYcoyJxgcTI1P67MvPRtwTF+rho=
 			</data>
 		</dict>
 		<key>Headers/INaviControllerDefine.h</key>
@@ -479,6 +479,13 @@
 			3qpRwTU11P8IXUomLIvjXgCNgrY+YaJnPcRIPCYNYRc=
 			</data>
 		</dict>
+		<key>Headers/INaviShiMember.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CYdvtCvCFeqq8ntKjWJTLNTWe/MGx3cuR75vf/8Lnwc=
+			</data>
+		</dict>
 		<key>Headers/InvTrafficBarData.h</key>
 		<dict>
 			<key>hash2</key>
@@ -553,14 +560,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EfFajo03eojC5HX/F7DNFr6iwd5tmFcLZLLB40rCJe8=
+			YrwPYASh4btlIiNW99Xe1VEwF747KCOv7bXqq4uWj4Q=
 			</data>
 		</dict>
 		<key>Headers/iNaviNavigationSdk.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xe9JfDM2hey2ik8z4QsTuNznn5t0sY6v9GA6J1Q2oqo=
+			sVYqD5QFmzxuAAuLJqnKg6t0catkGCDjnNITIhezHU4=
 			</data>
 		</dict>
 		<key>InvArriveView.nib</key>
@@ -679,42 +686,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7D+B/zDE2Cw6tsa+uJbWZhfkLDGJ/3jlEuUB9ItHuG8=
+			vTnnSAOjrAEy3YEFieDnTAaeoiSOWG7UoWisKeFWT7g=
 			</data>
 		</dict>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9WM3Zzl6RQX32Lq19qTPnKVMXkgH9dmdHNHjLb4pHl0=
+			FGc7PCydlGgrj2OCaVoT3Hh4oQ/K5oB6WBhNVAtFgGk=
 			</data>
 		</dict>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G6XCvK0lfMLJRSH+sXHsAZsiwxve7yGEReiy+twT7dg=
+			7OIYNbvbvTWjircfo1vtMIBClLgTttjSkQb+zae8Ef4=
 			</data>
 		</dict>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pIrMURpFiPgnEI3nkhKSB33rWMbamx2tHgOFRxoHqZM=
+			S4vdvpHDq9PDci6RbC2hrcjRCpCooFZv8DxuU1ZxYJE=
 			</data>
 		</dict>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G6XCvK0lfMLJRSH+sXHsAZsiwxve7yGEReiy+twT7dg=
+			7OIYNbvbvTWjircfo1vtMIBClLgTttjSkQb+zae8Ef4=
 			</data>
 		</dict>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j+Af48vYl7unUEGbZvWJ7wA6A6iV2fWvxUrNA2k3hT0=
+			bql0TEsze+Eh0sg9gz2PbhmQZ8YY44xnZlamjuONmFk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -722,13 +729,6 @@
 			<key>hash2</key>
 			<data>
 			h/o/7lq66/F3zEtPCysatK1CBoQTAHmrfDCAmDs7m0Y=
-			</data>
-		</dict>
-		<key>Spoqa Han Sans Light.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5u1SD91tVGN+hRXoyjXlneFhWU28o405gyTjdvd+1h0=
 			</data>
 		</dict>
 		<key>configdata.plist</key>

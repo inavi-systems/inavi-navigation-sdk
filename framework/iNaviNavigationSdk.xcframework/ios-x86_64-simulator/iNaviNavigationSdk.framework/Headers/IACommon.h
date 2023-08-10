@@ -270,6 +270,8 @@ typedef enum  {
 
 + (NSInteger)getRemainingTollFee;
 
++ (CGPoint)getCurrentPostion;
+
 + (BOOL)isSimulMode;
 
 + (NSInteger)getRouteLength;
@@ -283,4 +285,15 @@ typedef enum  {
 + (NSInteger)getPreLinkIndex:(NSInteger)curTurnLinkIndex;
 + (NSInteger)getNextLinkIndex:(NSInteger)curTurnLinkIndex;
 
++ (NSString*)getShiSpdLmtPath;
++ (NSString*)getShiPoiPath;
++ (NSDictionary<NSString *,NSString *> *_Nonnull)getDefaultHeader;
++ (NSString*_Nonnull)getDefatulHost;
++ (NSString*_Nonnull)getDefatulPort;
++ (CGPoint)regToWGS84:(double)x y:(double)y;
++ (void)noDriveSoundAlert;
++ (void)disasterSoundAlert;
++ (void)addLimitPinPoint:(NSArray<NSValue*>*)points;
++ (void)addDisasterPinPoint:(NSArray<NSValue*>*)points;
++ (NSInteger)getDistancePoint:(CGPoint)point;
 @end

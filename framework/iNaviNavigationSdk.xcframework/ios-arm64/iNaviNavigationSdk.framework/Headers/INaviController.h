@@ -17,6 +17,7 @@
 @class INaviMapIcon;
 @class INaviRouteSumInfo;
 @class INaviRouteRemainInfo;
+@class INaviShiMember;
 
 @protocol INaviControllerDelegate;
 
@@ -81,6 +82,12 @@ INAVI_EXPORT
 - (void)initalizeNavi:(NSString*)uniqueID target:(id<INaviControllerDelegate>)target;
 
 /**
+ 삼성중공업 멤버 데이터 설정
+ @param member `INaviShiMember` 객체.
+*/
+- (void)setShiMember:(INaviShiMember*)member;
+
+/**
  현 위치 반환
  @return `INaviPosition` 객체.
  */
@@ -140,8 +147,10 @@ INAVI_EXPORT
 
 #pragma mark - route
 
-- (void)runRoute:(INaviRoutePtItem* _Nullable)startItem goalItem:(INaviRoutePtItem*)goalItem successHandler:(INaviRouteMultiSuccessHandler)successHandler failHandler:(INaviFailHandler)failHandler;
-- (void)runSingleRoute:(INaviRoutePtItem* _Nullable)startItem goalItem:(INaviRoutePtItem*)goalItem routeOption:(INVRouteOptionType)opt successHandler:(INaviRouteSingleSuccessHandler)successHandler failHandler:(INaviFailHandler)failHandler;
+- (void)runRoute:(INaviRoutePtItem* _Nullable)startItem goalItem:(INaviRoutePtItem*)goalItem viaList:(NSArray<INaviRoutePtItem*>* _Nullable)viaList successHandler:(INaviRouteMultiSuccessHandler)successHandler failHandler:(INaviFailHandler)failHandler;
+- (void)runSingleRoute:(INaviRoutePtItem* _Nullable)startItem goalItem:(INaviRoutePtItem*)goalItem viaList:(NSArray<INaviRoutePtItem*>* _Nullable)viaList routeOption:(INVRouteOptionType)opt successHandler:(INaviRouteSingleSuccessHandler)successHandler failHandler:(INaviFailHandler)failHandler;
+- (void)runShiRoute:(NSString* _Nullable)startName goalItem:(NSString*)goalName viaList:(NSArray<NSString*>* _Nullable)viaList successHandler:(INaviRouteMultiSuccessHandler)successHandler failHandler:(INaviFailHandler)failHandler;
+- (void)runSingleShiRoute:(NSString* _Nullable)startName goalItem:(NSString*)goalName viaList:(NSArray<NSString*>* _Nullable)viaList routeOption:(INVRouteOptionType)opt successHandler:(INaviRouteSingleSuccessHandler)successHandler failHandler:(INaviFailHandler)failHandler;
 - (void)routeZoomMapWithRouteIdList:(NSArray<NSString*>*)ridList selectedRID:(NSString*)selectedRID;
 - (void)cancelRoute;
 - (INaviRouteSumInfo*)makeRouteSumInfoWithRouteID:(NSString*)rid;
@@ -157,6 +166,8 @@ INAVI_EXPORT
 - (BOOL)isSimulation;
 
 #pragma mark - etc
+
+- (void)testLog;
 @end
 
 NS_ASSUME_NONNULL_END

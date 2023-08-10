@@ -1,7 +1,9 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
-// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name iNaviNavigationSdk
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name iNaviNavigationSdk
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import Combine
+import Foundation
 import Swift
 import UIKit
 import _Concurrency
@@ -26,6 +28,21 @@ extension iNaviNavigationSdk.InvMenuLayer : iNaviNavigationSdk.InvViewProtocol {
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(IARouteSearchModule) public class IARouteSearchModule : ObjectiveC.NSObject {
   @objc public static let shared: iNaviNavigationSdk.IARouteSearchModule
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(ShiManager) public class ShiManager : ObjectiveC.NSObject {
+  @objc public static let sharedInstance: iNaviNavigationSdk.ShiManager
+  @objc public var isShiMode: Swift.Bool
+  @objc public func loadShiData()
+  @objc public func getShiManagerWarning(mmc: iNaviNavigationSdk.MMCModuleData, shiMember: iNaviNavigationSdk.INaviShiMember?, speed: ObjectiveC.NSInteger, isSimulMode: Swift.Bool) -> Swift.Int
+  @objc public func getShiManagerNoDriveWarning() -> Swift.Bool
+  @objc public func checkShiManagerDisasterWarning()
+  @objc public func getShiManagerNoWayPoint()
+  public func getShiManagerNoWayPointEnterCheck(mmc: iNaviNavigationSdk.MMCModuleData) -> Swift.Bool
+  @objc public func setShiGpsInfo(mmc: iNaviNavigationSdk.MMCModuleData, speed: ObjectiveC.NSInteger, angle: Swift.Int, pathVolnYn: Swift.Bool = false, shiMember: iNaviNavigationSdk.INaviShiMember?)
+  @objc public func getShiPoiData(_ name: Swift.String) -> iNaviNavigationSdk.INaviRoutePtItem?
+  @objc public func getShiPoiDataAry(_ name: [Swift.String]) -> [iNaviNavigationSdk.INaviRoutePtItem]?
+  @objc override dynamic public init()
   @objc deinit
 }
 @objc public protocol InvViewProtocol {

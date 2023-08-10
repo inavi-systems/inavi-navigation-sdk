@@ -287,6 +287,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
+
 SWIFT_CLASS_NAMED("IARouteSearchModule")
 @interface IARouteSearchModule : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) IARouteSearchModule * _Nonnull shared;)
@@ -388,6 +389,26 @@ SWIFT_CLASS_NAMED("InvMenuLayer")
 
 
 
+
+
+@class INaviShiMember;
+@class INaviRoutePtItem;
+
+SWIFT_CLASS_NAMED("ShiManager")
+@interface ShiManager : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ShiManager * _Nonnull sharedInstance;)
++ (ShiManager * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic) BOOL isShiMode;
+- (void)loadShiData;
+- (NSInteger)getShiManagerWarningWithMmc:(MMCModuleData * _Nonnull)mmc shiMember:(INaviShiMember * _Nullable)shiMember speed:(NSInteger)speed isSimulMode:(BOOL)isSimulMode SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)getShiManagerNoDriveWarning SWIFT_WARN_UNUSED_RESULT;
+- (void)checkShiManagerDisasterWarning;
+- (void)getShiManagerNoWayPoint;
+- (void)setShiGpsInfoWithMmc:(MMCModuleData * _Nonnull)mmc speed:(NSInteger)speed angle:(NSInteger)angle pathVolnYn:(BOOL)pathVolnYn shiMember:(INaviShiMember * _Nullable)shiMember;
+- (INaviRoutePtItem * _Nullable)getShiPoiData:(NSString * _Nonnull)name SWIFT_WARN_UNUSED_RESULT;
+- (NSArray<INaviRoutePtItem *> * _Nullable)getShiPoiDataAry:(NSArray<NSString *> * _Nonnull)name SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
 
 
 
