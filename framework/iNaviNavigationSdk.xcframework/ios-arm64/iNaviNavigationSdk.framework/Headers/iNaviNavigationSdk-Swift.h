@@ -405,7 +405,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ShiManager *
 - (void)checkShiManagerDisasterWarning;
 - (void)getShiManagerNoWayPoint;
 - (void)setShiGpsInfoWithMmc:(MMCModuleData * _Nonnull)mmc speed:(NSInteger)speed angle:(NSInteger)angle pathVolnYn:(BOOL)pathVolnYn shiMember:(INaviShiMember * _Nullable)shiMember;
-- (INaviRoutePtItem * _Nullable)getShiPoiData:(NSString * _Nonnull)name SWIFT_WARN_UNUSED_RESULT;
+- (INaviRoutePtItem * _Nullable)getShiPoiData:(NSString * _Nonnull)name bStart:(BOOL)bStart SWIFT_WARN_UNUSED_RESULT;
 - (NSArray<INaviRoutePtItem *> * _Nullable)getShiPoiDataAry:(NSArray<NSString *> * _Nonnull)name SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end

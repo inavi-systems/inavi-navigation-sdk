@@ -1219,7 +1219,7 @@
           {
             "kind": "Function",
             "name": "getShiPoiData",
-            "printedName": "getShiPoiData(_:)",
+            "printedName": "getShiPoiData(_:bStart:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1240,11 +1240,18 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@iNaviNavigationSdk@objc(cs)ShiManager(im)getShiPoiData:",
-            "mangledName": "$s18iNaviNavigationSdk10ShiManagerC03getD7PoiDataySo16INaviRoutePtItemCSgSSF",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)ShiManager(im)getShiPoiData:bStart:",
+            "mangledName": "$s18iNaviNavigationSdk10ShiManagerC03getD7PoiData_6bStartSo16INaviRoutePtItemCSgSS_SbtF",
             "moduleName": "iNaviNavigationSdk",
             "declAttributes": [
               "AccessControl",
@@ -3401,100 +3408,107 @@
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
       "kind": "StringLiteral",
-      "offset": 992,
+      "offset": 996,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
       "kind": "StringLiteral",
-      "offset": 1016,
+      "offset": 1024,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
       "kind": "StringLiteral",
-      "offset": 1040,
+      "offset": 1051,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
       "kind": "StringLiteral",
-      "offset": 1064,
+      "offset": 1078,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
       "kind": "Array",
-      "offset": 1135,
+      "offset": 1149,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1291,
+      "offset": 1305,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
       "kind": "Array",
-      "offset": 1342,
+      "offset": 1356,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
       "kind": "Array",
-      "offset": 1385,
+      "offset": 1399,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
       "kind": "Array",
-      "offset": 1423,
+      "offset": 1437,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
       "kind": "Array",
-      "offset": 1547,
+      "offset": 1561,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
       "kind": "Array",
-      "offset": 1619,
+      "offset": 1633,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1668,
+      "offset": 1682,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1793,
+      "offset": 1807,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 12589,
+      "offset": 12617,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14847,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvViewProtocol.swift",

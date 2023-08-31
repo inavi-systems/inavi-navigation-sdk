@@ -40,7 +40,7 @@ extension iNaviNavigationSdk.InvMenuLayer : iNaviNavigationSdk.InvViewProtocol {
   @objc public func getShiManagerNoWayPoint()
   public func getShiManagerNoWayPointEnterCheck(mmc: iNaviNavigationSdk.MMCModuleData) -> Swift.Bool
   @objc public func setShiGpsInfo(mmc: iNaviNavigationSdk.MMCModuleData, speed: ObjectiveC.NSInteger, angle: Swift.Int, pathVolnYn: Swift.Bool = false, shiMember: iNaviNavigationSdk.INaviShiMember?)
-  @objc public func getShiPoiData(_ name: Swift.String) -> iNaviNavigationSdk.INaviRoutePtItem?
+  @objc public func getShiPoiData(_ name: Swift.String, bStart: Swift.Bool = true) -> iNaviNavigationSdk.INaviRoutePtItem?
   @objc public func getShiPoiDataAry(_ name: [Swift.String]) -> [iNaviNavigationSdk.INaviRoutePtItem]?
   @objc override dynamic public init()
   @objc deinit
