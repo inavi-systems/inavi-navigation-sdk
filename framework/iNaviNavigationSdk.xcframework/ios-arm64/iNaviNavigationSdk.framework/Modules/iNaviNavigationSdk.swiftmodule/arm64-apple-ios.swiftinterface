@@ -1,13 +1,16 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name iNaviNavigationSdk
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Combine
+import DeveloperToolsSupport
 import Foundation
 import Swift
+import SwiftUI
 import UIKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @_exported import iNaviNavigationSdk
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(InvView) @_Concurrency.MainActor(unsafe) public class InvView : UIKit.UIView {
   @objc @_Concurrency.MainActor(unsafe) weak public var delegate: (any iNaviNavigationSdk.InvViewProtocol)?
@@ -39,7 +42,7 @@ extension iNaviNavigationSdk.InvMenuLayer : iNaviNavigationSdk.InvViewProtocol {
   @objc public func checkShiManagerDisasterWarning()
   @objc public func getShiManagerNoWayPoint()
   public func getShiManagerNoWayPointEnterCheck(mmc: iNaviNavigationSdk.MMCModuleData) -> Swift.Bool
-  @objc public func setShiGpsInfo(mmc: iNaviNavigationSdk.MMCModuleData, speed: ObjectiveC.NSInteger, angle: Swift.Int, pathVolnYn: Swift.Bool = false, shiMember: iNaviNavigationSdk.INaviShiMember?)
+  @objc public func setShiGpsInfo(mmc: iNaviNavigationSdk.MMCModuleData, speed: ObjectiveC.NSInteger, angle: Swift.Int, pathVolnYn: Swift.Bool = false, shiMember: iNaviNavigationSdk.INaviShiMember?) -> Swift.Bool
   @objc public func getShiPoiData(_ name: Swift.String, bStart: Swift.Bool = true) -> iNaviNavigationSdk.INaviRoutePtItem?
   @objc public func getShiPoiDataAry(_ name: [Swift.String]) -> [iNaviNavigationSdk.INaviRoutePtItem]?
   @objc override dynamic public init()
