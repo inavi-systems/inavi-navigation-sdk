@@ -162,7 +162,7 @@
 		</data>
 		<key>Headers/iNaviNavigationSdk-Swift.h</key>
 		<data>
-		4XFTbbNiGnAVmb2+tSizektDTtM=
+		SDgkXvpXT28xvijcQOR0zOCuOcE=
 		</data>
 		<key>Headers/iNaviNavigationSdk.h</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		BJdr5rKKH1ta7CcbBfTLM54AJEs=
+		2wmx/+Mfc+AcBLuWw0Ok245Ep9g=
 		</data>
 		<key>InvArriveView.nib</key>
 		<data>
@@ -190,7 +190,7 @@
 		</data>
 		<key>InvGuideLayer.nib</key>
 		<data>
-		7JGlnhDCD5qmwjPoN/ACYScU2+g=
+		HaJONXIbt835HfE2SWKQckEbUi8=
 		</data>
 		<key>InvHighWayTableViewCell.nib</key>
 		<data>
@@ -202,7 +202,7 @@
 		</data>
 		<key>InvLaneView.nib</key>
 		<data>
-		5T8ISLYB0CXRsQK85LOe6LD8/us=
+		saLqNGQC/FhJA02zcd7/VV16I0U=
 		</data>
 		<key>InvMapModeBtnView.nib</key>
 		<data>
@@ -222,11 +222,11 @@
 		</data>
 		<key>InvSpeedView.nib</key>
 		<data>
-		FxXURd4VdkcCKn5xmKp/KaINmSs=
+		uMD4EQSQAogXOIFMe2xT7w9BERE=
 		</data>
 		<key>InvTurnView.nib</key>
 		<data>
-		UMYlcetlVvSPoRsf92utC5IB9EE=
+		ecjr1tSAL7dmPN3LIYyf31Z69WE=
 		</data>
 		<key>InvVmsView.nib</key>
 		<data>
@@ -238,15 +238,15 @@
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		Ph2LeqCx8BKV8jS4Ooor6/nnJxM=
+		hDGCcwgxPDjAUX2xBOmxeM0UjV4=
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		j+WO+XnorfS+Jb+4nY6a2Obqz70=
+		X18Su+FxiGom/lOXiXQmES7rC0k=
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		5cDnxkM7I/RsTLn1yZ7Fiuq/1/8=
+		uwJUnCPEaZacjvnbQSae7lxQ1pA=
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -254,11 +254,11 @@
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		5cDnxkM7I/RsTLn1yZ7Fiuq/1/8=
+		uwJUnCPEaZacjvnbQSae7lxQ1pA=
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		s6samAcksKIItAmtgMf7F1zC++4=
+		IToifXGRyZzCJlzZJnI2CE9pM4E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -560,7 +560,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+/v9p9OZiaN7YsHTdnwBxXOCVKmZeZSoymtV80fNfB0=
+			AFiMB4uNKDRnGM2siTXk9J7o9RJmKCsFDPges/fWbG4=
 			</data>
 		</dict>
 		<key>Headers/iNaviNavigationSdk.h</key>
@@ -602,7 +602,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			l7n+t9lU9ZQw8v6wlBpOweA5WsZ6gpR8s3sQ99+xoD0=
+			btFfRdYFIdfMRgt+GbQW5oaOAyApcQzeqWr+c4jH1II=
 			</data>
 		</dict>
 		<key>InvHighWayTableViewCell.nib</key>
@@ -623,7 +623,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ne1rI//zz3auQc64b3IZrfWKAAHrQuDWNDv8WOC/xnc=
+			8D/W7ibSvda7vc3ZSiy/9yFoe9+juvG13+lA6fP78a8=
 			</data>
 		</dict>
 		<key>InvMapModeBtnView.nib</key>
@@ -658,14 +658,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wG2rQVazMRRK5DqRkaoN65mEJWPlIgdYIr7Qt2P0mIQ=
+			w17mqpa1La0ceQXxjPF5GVaz/pFV52MJHw8MDBxlY7E=
 			</data>
 		</dict>
 		<key>InvTurnView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			owjjQLBw/xx1XOaW2zHgtS7604Pm8GHSeWTXC3YC5QE=
+			WX/s4hrUF75LwwLzBqnbQDmYBU41270+SfrJYLzPpR4=
 			</data>
 		</dict>
 		<key>InvVmsView.nib</key>
@@ -686,21 +686,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9wpEn0GFYpnttabwhUVF/zGPwGw7pHUK8pjTF4ekuRA=
+			hU9v/90hZSu7wf7UHAB6/gYc2ajpREtLtpNqZe7PFuQ=
 			</data>
 		</dict>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LndhoSfD8sFcMoK4ImguNr96LI+ZgcFgnOuji9iPBHo=
+			Y2z36i04xsysX07VzTWdkzrCSmSJUOwOpty8V5NGimI=
 			</data>
 		</dict>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gcivsMgVwOWAQngI9sJMGN6+y+rxhbLkNQ77xbYZGNk=
+			dJ72xcxOnkK7Bt5qDfc7fonMD9CYCsA+bN49+/CMLU0=
 			</data>
 		</dict>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -714,14 +714,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gcivsMgVwOWAQngI9sJMGN6+y+rxhbLkNQ77xbYZGNk=
+			dJ72xcxOnkK7Bt5qDfc7fonMD9CYCsA+bN49+/CMLU0=
 			</data>
 		</dict>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bH7AoFbw/fd0Cm4NGU9kXObzaq1EMWtgnoPfjvbnRfo=
+			w5lw8qYdXpEEguQI+KQHyS8Z4zwT8Ynz+C7qTDWUGk8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

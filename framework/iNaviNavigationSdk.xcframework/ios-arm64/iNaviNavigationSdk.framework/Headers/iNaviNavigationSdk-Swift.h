@@ -420,7 +420,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ShiManager *
 - (NSInteger)getShiManagerWarningWithMmc:(MMCModuleData * _Nonnull)mmc shiMember:(INaviShiMember * _Nullable)shiMember speed:(NSInteger)speed isSimulMode:(BOOL)isSimulMode SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)getShiManagerNoDriveWarning SWIFT_WARN_UNUSED_RESULT;
 - (void)checkShiManagerDisasterWarning;
-- (void)getShiManagerNoWayPoint;
+- (void)getShiManagerNoWayPoint:(NSInteger)shiWeightType;
 - (BOOL)setShiGpsInfoWithMmc:(MMCModuleData * _Nonnull)mmc speed:(NSInteger)speed angle:(NSInteger)angle pathVolnYn:(BOOL)pathVolnYn shiMember:(INaviShiMember * _Nullable)shiMember SWIFT_WARN_UNUSED_RESULT;
 - (INaviRoutePtItem * _Nullable)getShiPoiData:(NSString * _Nonnull)name bStart:(BOOL)bStart SWIFT_WARN_UNUSED_RESULT;
 - (NSArray<INaviRoutePtItem *> * _Nullable)getShiPoiDataAry:(NSArray<NSString *> * _Nonnull)name SWIFT_WARN_UNUSED_RESULT;
