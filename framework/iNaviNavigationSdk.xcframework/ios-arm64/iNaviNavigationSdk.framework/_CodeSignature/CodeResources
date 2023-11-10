@@ -170,7 +170,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		x0+SzHGHtvHB6FzxjHRriL1p+o0=
+		73p+GhexRxp/oEBRqZ/SOMi6Lwo=
 		</data>
 		<key>InvArriveView.nib</key>
 		<data>
@@ -238,7 +238,7 @@
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		t+1M+yAO1FHnBCWvZCbQuh9a6Yc=
+		Bg9czAJMSjSkRk2cb8RfyF4OuuE=
 		</data>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -267,10 +267,6 @@
 		<key>configdata.plist</key>
 		<data>
 		FxbDhbNVrjbe/61RdvbHjuH6eDk=
-		</data>
-		<key>inavi_rixgo_0.ttf</key>
-		<data>
-		UwuZc+u7J6blEHccqAEiDJ3ucdU=
 		</data>
 		<key>spoqa_han_sans_bold.ttf</key>
 		<data>
@@ -686,7 +682,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JHVqrpVNbZd0ZgRecGtHt+bOuZoZC1IioLrSzDoYE34=
+			gTFvbzhU0UxEXMWRfGcNwvh6LL81BpwbhpkYu9XVI4U=
 			</data>
 		</dict>
 		<key>Modules/iNaviNavigationSdk.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -736,13 +732,6 @@
 			<key>hash2</key>
 			<data>
 			om0T8I9R6AyxgupWtgQaJso5mGhgefCB1SNqUwWFGyU=
-			</data>
-		</dict>
-		<key>inavi_rixgo_0.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			aQALVggRrHs+jdxDO5kJlUP4tvNv752NEFAXQgkcBTY=
 			</data>
 		</dict>
 		<key>spoqa_han_sans_bold.ttf</key>
