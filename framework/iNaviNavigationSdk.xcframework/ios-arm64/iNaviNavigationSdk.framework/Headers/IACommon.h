@@ -293,6 +293,7 @@ typedef enum  {
 + (CGPoint)regToWGS84:(double)x y:(double)y;
 + (void)noDriveSoundAlert;
 + (void)disasterSoundAlert;
++ (void)stopAreaSoundAlert;
 + (void)addLimitPinPoint:(NSArray<NSValue*>*)points;
 + (void)addDisasterPinPoint:(NSArray<NSValue*>*)points;
 + (NSInteger)getDistancePoint:(CGPoint)point;
