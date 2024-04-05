@@ -80,6 +80,39 @@ typedef NS_ENUM(NSUInteger, INVRoutePtType) {
     
 };
 
+typedef NS_ENUM(NSUInteger, INVCarType) {
+    /**
+     1종(소형차) -> 일반승용, 승합16인 이하, 화물2.5톤 미만
+     */
+    CarType_1 = 0,
+    /**
+     2종(중형차) -> 승합32인 이하, 화물5.5톤 이하
+     */
+    CarType_2,
+    /**
+     3종(대형차) -> 승합33인 이상, 화물10톤 미만
+     */
+    CarType_3,
+    /**
+     4종(대형화물차) -> 화물20톤 미만
+     */
+    CarType_4,
+    /**
+     5종(특수화물차) -> 화물20톤 이상
+     */
+    CarType_5,
+    /**
+     경차 -> 1종 : 통행료 할인 적용
+     */
+    CarType_6,
+    /**
+     이륜차
+     */
+    CarType_7
+};
+
+
+
 typedef NS_ENUM(NSUInteger, INVRouteOptionType) {
     /**
      빠른길
@@ -109,6 +142,30 @@ typedef NS_ENUM(NSUInteger, INVRouteOptionType) {
      최단 거리
     */
     INVRouteOptionDistancePrioty,
+    /**
+     실시간 만차
+    */
+    INVRouteOptionTruck,
+    /**
+     실시간 만차(무료)
+    */
+    INVRouteOptionTruckFreeRoad,
+    /**
+     실시간 공차
+    */
+    INVRouteOptionTruck2,
+    /**
+     실시간 공차(무료)
+    */
+    INVRouteOptionTruck2FreeRoad,
+    /**
+     국도만차
+    */
+    INVRouteOptionTruckNationalWay,
+    /**
+     국도공차
+    */
+    INVRouteOptionTruck2NationalWay,
     
 };
 
@@ -214,6 +271,22 @@ typedef NS_ENUM(NSUInteger, INVMapComponent) {
      */
     ROUTE_TRAFFIC_STATUS_BAR,
 };
+
+typedef NS_ENUM(NSUInteger, INVTruckInfoType) {
+    /**
+     알수없음
+     */
+    UNKNOWN = 0,
+    /**
+     좁은길
+     */
+    NARROW = 1,
+    /**
+     유턴
+     */
+    UTURN = 2
+};
+
 
 typedef NS_ENUM(NSInteger, INVCodeType) {
     /**

@@ -18,6 +18,7 @@
 @class INaviRouteSumInfo;
 @class INaviRouteRemainInfo;
 @class INaviShiMember;
+@class INaviTruckInfo;
 
 @protocol INaviControllerDelegate;
 
@@ -40,7 +41,7 @@ INAVI_EXPORT
 /**
  지도 인증 AppKey
  */
-@property (nonatomic, nullable) NSString *appKey;
+@property (nonatomic, strong, nullable) NSString *appKey;
 
 /**
  지도 레벨  ( 유효 범위 1 ~ 13 )
@@ -76,16 +77,85 @@ INAVI_EXPORT
  Top SafeArea영역을 지도 컴포넌트에 적용.
  기본값은 false입니다.
 */
-@property (nonatomic) BOOL layoutTopSafeArea;
-
-
-- (void)initalizeNavi:(NSString*)uniqueID target:(id<INaviControllerDelegate>)target;
+@property (nonatomic) Boolean layoutTopSafeArea;
 
 /**
- 삼성중공업 멤버 데이터 설정
- @param member `INaviShiMember` 객체.
+ left,right SafeArea영역을 지도 컴포넌트에 적용.
+ 기본값은 false입니다.
 */
-- (void)setShiMember:(INaviShiMember*)member;
+@property (nonatomic) Boolean layoutLeftRightSafeArea;
+
+/**
+ 확대도 표출 여부 설정
+ 기본값은 false입니다.
+ */
+@property (nonatomic) Boolean bVisibleExtendView;
+
+/**
+ 차종 설정.
+ 기본값은 1종(소형차)입니다.
+*/
+@property (nonatomic) INVCarType carType;
+
+/**
+ 차량 높이 설정 (0 ~ 1000cm [10m]), 설정 시 높이제한구역 회피안내
+ 기본값은 0입니다.
+ */
+@property (nonatomic) NSInteger carHeight;
+
+/**
+ 차량 중량 설정 (0 ~ 60000kg [60t]) , 설정 시 중량제한구역 회피안내
+ 기본값은 0입니다.
+ */
+@property (nonatomic) NSInteger carWeight;
+
+/**
+ 왕복 n차선 이하 유턴 회피 설정
+ 기본값은 0입니다.
+ */
+@property (nonatomic) NSInteger nAvoidUturn;
+
+/**
+ 왕복 n차선 이하 도로 회피여부 설정
+ 기본값은 0입니다.
+ */
+@property (nonatomic) NSInteger nAvoidNarrowRoad;
+
+/**
+ 화물차 통행제한구간 회피여부 설정
+ 기본값은 false입니다.
+ */
+@property (nonatomic) Boolean bIsAvoidRestriction;
+
+/**
+ 화물차 여부 설정
+ 기본값은 false입니다.
+ */
+@property (nonatomic) Boolean bTruckType;
+
+/**
+ 첫번째 탐색 옵션 타입
+ 기본값은 빠른길 입니다.
+ */
+@property (nonatomic) INVRouteOptionType fOptionType;
+
+/**
+ 두번째 탐색 옵션 타입
+ 기본값은 추천길 입니다.
+ */
+@property (nonatomic) INVRouteOptionType sOptionType;
+
+/**
+ 차기 tbt Color
+ */
+@property (nonatomic, strong, nullable) UIColor *tbtColor;
+
+/**
+ 차차기 tbt Color
+ */
+@property (nonatomic, strong, nullable) UIColor *nextTbtColor;
+
+- (void)initalizeNavi:(NSString*)uniqueID target:(id<INaviControllerDelegate>)target;
 
 /**
  현 위치 반환
@@ -140,6 +210,17 @@ INAVI_EXPORT
  */
 - (void)forceHideMapComponent:(INVMapComponent)componentID hide:(BOOL)hide;
 
+/**
+ 차종 타이틀명
+ */
+- (NSString*)getCarTitle;
+
+/**
+ 삼성중공업 멤버 데이터 설정
+ @param member `INaviShiMember` 객체.
+*/
+- (void)setShiMember:(INaviShiMember*)member;
+
 #pragma mark - search
 - (void)runSearch:(NSString*)query lat:(double)lat lng:(double)lng successHandler:(INaviSearchSuccessHandler)successHandler failHandler:(INaviFailHandler)failHandler;
 - (void)runRecommendWord:(NSString*)query successHandler:(INaviRecommendSearchSuccessHandler)successHandler failHandler:(INaviFailHandler)failHandler;
@@ -161,6 +242,8 @@ INAVI_EXPORT
 - (NSInteger)runGuidanceWithRouteID:(NSString*)rid;
 - (INaviRouteRemainInfo*)getRemainRouteInfo;
 - (NSInteger)startSimulationWithRouteID:(NSString*)rid;
+- (INaviTruckInfo* _Nullable)getNextTruckInfo;
+- (NSArray<INaviTruckInfo*>* _Nullable)getTruckInfos:(NSString*)rid;
 - (NSInteger)finishSimulation;
 - (BOOL)isGuidance;
 - (BOOL)isSimulation;

@@ -31,6 +31,7 @@ FOUNDATION_EXPORT const unsigned char iNaviNavigationSdkVersionString[];
 #import "INaviRouteSumInfo.h"
 #import "INaviRouteRemainInfo.h"
 #import "INaviShiMember.h"
+#import "INaviTruckInfo.h"
 
 
 #import "common_define.h"

@@ -331,6 +331,7 @@ SWIFT_CLASS_NAMED("InvView")
 - (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
 @end
 
+@class UIColor;
 @class GuideTurnInfo;
 @class GuideLaneInfo;
 @class IAMMCDataInfo;
@@ -345,6 +346,10 @@ SWIFT_CLASS_NAMED("InvGuideLayer")
 @interface InvGuideLayer : InvView
 - (void)updateView;
 - (void)layoutVisbleUpdate;
+- (void)settingLeftSafeArea:(CGFloat)padding;
+- (void)settingRightSafeArea:(CGFloat)padding;
+- (void)setTbtColor:(UIColor * _Nonnull)color;
+- (void)setNextTbtColor:(UIColor * _Nonnull)color;
 - (void)updateGuideInfos:(GuideTurnInfo * _Nullable)turnInfo nextTurnInfo:(GuideTurnInfo * _Nullable)nextTurnInfo laneInfo:(GuideLaneInfo * _Nullable)laneInfo roadType:(ROAD_TYPE)road_type isSimulationMode:(BOOL)isSimulationMode isZoomVisible:(BOOL)isZoomVisible;
 - (void)updateMMCInfo:(IAMMCDataInfo * _Nullable)mmcInfo mmcModuleData:(MMCModuleData * _Nullable)MMCModuleData isSimulationMode:(BOOL)isSimulationMode;
 - (void)update:(GuideCamInfo * _Nullable)camInfo safeInfo:(GuideSafeInfo * _Nullable)safeInfo roadType:(ROAD_TYPE)roadtype nowSpeed:(NSInteger)speed isSimulationMode:(BOOL)isSimulationMode;

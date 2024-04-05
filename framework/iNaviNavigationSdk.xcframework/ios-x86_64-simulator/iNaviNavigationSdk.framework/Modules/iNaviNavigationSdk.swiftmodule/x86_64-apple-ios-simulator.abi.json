@@ -2200,6 +2200,118 @@
           },
           {
             "kind": "Function",
+            "name": "settingLeftSafeArea",
+            "printedName": "settingLeftSafeArea(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvGuideLayer(im)settingLeftSafeArea:",
+            "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC19settingLeftSafeAreayy12CoreGraphics7CGFloatVF",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "settingRightSafeArea",
+            "printedName": "settingRightSafeArea(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvGuideLayer(im)settingRightSafeArea:",
+            "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC20settingRightSafeAreayy12CoreGraphics7CGFloatVF",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setTbtColor",
+            "printedName": "setTbtColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvGuideLayer(im)setTbtColor:",
+            "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC11setTbtColoryySo7UIColorCF",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setNextTbtColor",
+            "printedName": "setNextTbtColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)InvGuideLayer(im)setNextTbtColor:",
+            "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC15setNextTbtColoryySo7UIColorCF",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "updateGuideInfos",
             "printedName": "updateGuideInfos(_:nextTurnInfo:laneInfo:roadType:isSimulationMode:isZoomVisible:)",
             "children": [

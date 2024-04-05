@@ -71,6 +71,16 @@
 - (void)mapView:(nonnull INaviMapView *)mapView didChangedDrivingStatus:(INVDrivingStatus)drivingStatus NS_SWIFT_NAME(mapView(_:didChanged:));
 
 /**
+ 경유지 도착시 호출 됩니다.
+ 한번 지나간 경유지에 대해서 다시 onArrivalVia 이벤트가 호출되지는 않음
+
+ @param mapView 'iNaviMapView' 객체
+ @param nIndex 경유지 인덱스 전달
+*/
+
+- (void)mapView:(nonnull INaviMapView *)mapView passedIndex:(NSInteger)nIndex;
+
+/**
  현재 차량 속도가 0.2초 간격으로 전달 됩니다.
 
  @param mapView 'iNaviMapView' 객체
