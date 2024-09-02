@@ -64,7 +64,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "iNaviNavigationSdk.InvViewProtocol?"
+                "printedName": "(any iNaviNavigationSdk.InvViewProtocol)?"
               }
             ],
             "declKind": "Var",
@@ -90,12 +90,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "iNaviNavigationSdk.InvViewProtocol?",
+                    "printedName": "(any iNaviNavigationSdk.InvViewProtocol)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "InvViewProtocol",
-                        "printedName": "iNaviNavigationSdk.InvViewProtocol",
+                        "printedName": "any iNaviNavigationSdk.InvViewProtocol",
                         "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol"
                       }
                     ],
@@ -125,12 +125,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "iNaviNavigationSdk.InvViewProtocol?",
+                    "printedName": "(any iNaviNavigationSdk.InvViewProtocol)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "InvViewProtocol",
-                        "printedName": "iNaviNavigationSdk.InvViewProtocol",
+                        "printedName": "any iNaviNavigationSdk.InvViewProtocol",
                         "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol"
                       }
                     ],
