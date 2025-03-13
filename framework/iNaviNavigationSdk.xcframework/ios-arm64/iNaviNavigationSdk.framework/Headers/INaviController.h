@@ -229,6 +229,7 @@ INAVI_EXPORT
 #pragma mark - route
 
 - (void)runRoute:(INaviRoutePtItem* _Nullable)startItem goalItem:(INaviRoutePtItem*)goalItem viaList:(NSArray<INaviRoutePtItem*>* _Nullable)viaList successHandler:(INaviRouteMultiSuccessHandler)successHandler failHandler:(INaviFailHandler)failHandler;
+-(void)runOptimalRoute:(INaviRoutePtItem* _Nullable)startItem goalItem:(INaviRoutePtItem*)goalItem viaList:(NSArray<INaviRoutePtItem*>* _Nullable)viaList successHandler:(INaviRouteMultiSuccessHandler)successHandler failHandler:(INaviFailHandler)failHandler;
 - (void)runSingleRoute:(INaviRoutePtItem* _Nullable)startItem goalItem:(INaviRoutePtItem*)goalItem viaList:(NSArray<INaviRoutePtItem*>* _Nullable)viaList routeOption:(INVRouteOptionType)opt successHandler:(INaviRouteSingleSuccessHandler)successHandler failHandler:(INaviFailHandler)failHandler;
 - (void)runShiRoute:(NSString* _Nullable)startName goalItem:(NSString*)goalName viaList:(NSArray<NSString*>* _Nullable)viaList successHandler:(INaviRouteMultiSuccessHandler)successHandler failHandler:(INaviFailHandler)failHandler;
 - (void)runSingleShiRoute:(NSString* _Nullable)startName goalItem:(NSString*)goalName viaList:(NSArray<NSString*>* _Nullable)viaList routeOption:(INVRouteOptionType)opt successHandler:(INaviRouteSingleSuccessHandler)successHandler failHandler:(INaviFailHandler)failHandler;

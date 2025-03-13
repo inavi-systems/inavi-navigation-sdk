@@ -99,82 +99,33 @@ typedef enum{
 	iPROJECTION_TYPE_GOAL = 1,
 }iProjectionType;
 
-#if 0  //이동식 박스 적용 전.
 //carmera type define
 typedef enum{
-	CAM_NONE_TYPE			= 0, //없음
-	CAM_FIX_OVERSPEED		= 1, //고정식 과속
-	CAM_FIX_SPEED_SIGNAL	= 2, //고정식 과속 신호
-	CAM_FIX_SIGNAL			= 3, //고정식 신호
-	CAM_FIX_BUS				= 4, //고정식 버스
-	CAM_FIX_TRAFFIC			= 5, //고정식 교통량
-	CAM_MOVE_OVERSPEED		= 6, //이동식 과속
-	CAM_MOVE_BUS			= 7, //이동식 버스
-	CAM_STOPAGE				= 8, //주정차 위반
-	CAM_OVERLOAD			= 9, //과적 단속
-	CAM_INTERRUPT			= 10, //고정식 끼어들기
-	CAM_SAFEAREA_START		= 11, //구간단속시작
-	CAM_SAFEAREA_END		= 12, //구간 단속 종료
-	CAM_USER				= 13, //사용자 등록
-	CAM_SAFEAREAD_MIDDLE	= 14, //구간 단속 중간
-	CAM_SCHOOL_ZONE			= 15, //학교앞
-	CAM_CONSTRUCTION_ZONE	= 16, //공사구간
-    
-    CAM_MOVE_BOX            = 20,// 13.이동식박스
-    CAM_SILVER_ZONE         = 21,// 18.실버존
-    CAM_TOTALCOUNT          = 22, // 19. 카메라 총 갯수 (카메라 우선순위에 사용)
+    CAM_NONE_TYPE			   = 0,    // 없음
+    CAM_FIX_OVERSPEED		   = 1,    // 1.고정식과속
+    CAM_FIX_SPEED_SIGNAL	   = 2,    // 2.고정식과속신호
+    CAM_FIX_SIGNAL			   = 3,    // 3.고정식신호
+    CAM_FIX_BUS				   = 4,    // 4.고정식버스
+    CAM_FIX_TRAFFIC			   = 5,    // 5.고정식교통량
+    CAM_MOVE_OVERSPEED		   = 6,    // 6.이동식과속
+    CAM_MOVE_BUS			   = 7,    // 7.이동식버스
+    CAM_STOPAGE				   = 8,    // 8.주정차위반
+    CAM_OVERLOAD			   = 9,    // 9.과적단속
+    CAM_INTERRUPT			   = 10,   // 10.고정식끼어들기
+    CAM_SAFEAREA_START		   = 11,   // 11.구간단속시작지점
+    CAM_SAFEAREA_END		   = 12,   // 12.구간단속종료지점
+    CAM_MOVE_BOX               = 15,   // 15.이동식박스
+    CAM_SCHOOL_ZONE			   = 16,   // 16.어린이 보호
+    CAM_CONSTRUCTION_ZONE	   = 17,   // 17.공사구간
+    CAM_SILVER_ZONE            = 18,   // 18.실버존
+    CAM_USER				   = 19,   // 19.사용자등록
+    CAM_TUNNEL_CCTV            = 20,   // 20.터널내 차로변경 CCTV
+    CAM_REAR_OVERSPEED         = 21,   // 21.고정식 후면 번호판 과속
+    CAM_REAR_SPEED_SIGNAL      = 22,   // 22.고정식 후면 번호판 신호/과속
+    CAM_DISABILITYZONE         = 23,   // 23.장애인 보호구역
+    CAM_RESIDENTIALZONE        = 24    // 24.마을 주민 보호구역
 }CAMERA_TYPE;
-#else
-/*
- 2013.08.30 서명준 대리님 메일내용
- 위험지역 코드표
- 0                              // 없음
- 1                              // 1.고정식과속
- 2                              // 2.고정식과속신호
- 3                              // 3.고정식신호
- 4                              // 4.고정식버스
- 5                              // 5.고정식교통량
- 6                              // 6.이동식과속
- 7                              // 7.이동식버스
- 8                              // 8.주정차위반
- 9                              // 9.과적단속
- 10                             // 10.고정식끼어들기
- 11                             // 11.구간단속시작지점
- 12                             // 12.구간단속종료지점
- 13                             // 13.이동식박스
- 14                             // 14.사용자등록
- 15                             // 15.구간단속중간지점(진행중)
- 16                             // 16.어린이 보호
- 17                             // 17.공사구간
- 18                             // 18.실버존
- 19                             // 19. 카메라 총 갯수 (카메라 우선순위에 사용)
 
- */
-//carmera type define
-typedef enum{
-    CAM_NONE_TYPE			= 0,    // 없음
-    CAM_FIX_OVERSPEED		= 1,    // 1.고정식과속
-    CAM_FIX_SPEED_SIGNAL	= 2,    // 2.고정식과속신호
-    CAM_FIX_SIGNAL			= 3,    // 3.고정식신호
-    CAM_FIX_BUS				= 4,    // 4.고정식버스
-    CAM_FIX_TRAFFIC			= 5,    // 5.고정식교통량
-    CAM_MOVE_OVERSPEED		= 6,    // 6.이동식과속
-    CAM_MOVE_BUS			= 7,    // 7.이동식버스
-    CAM_STOPAGE				= 8,    // 8.주정차위반
-    CAM_OVERLOAD			= 9,    // 9.과적단속
-    CAM_INTERRUPT			= 10,   // 10.고정식끼어들기
-    CAM_SAFEAREA_START		= 11,   // 11.구간단속시작지점
-    CAM_SAFEAREA_END		= 12,   // 12.구간단속종료지점
-    CAM_MOVE_BOX            = 15,   // 15.이동식박스
-    CAM_SCHOOL_ZONE			= 16,   // 16.어린이 보호
-    CAM_CONSTRUCTION_ZONE	= 17,   // 17.공사구간
-    CAM_SILVER_ZONE         = 18,   // 18.실버존
-    CAM_USER				= 19,   // 19.사용자등록
-    CAM_TUNNEL_CCTV         = 20    // 20.터널내 차로변경 CCTV
-    
-	
-}CAMERA_TYPE;
-#endif
 // road type
 typedef enum{
 	ROAD_TYPE_ETC				= 0,	// 0 기타도로, 미조사 도로 --> 페리항로로 변경될 예정

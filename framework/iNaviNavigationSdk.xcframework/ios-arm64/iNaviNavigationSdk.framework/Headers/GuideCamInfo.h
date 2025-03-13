@@ -18,7 +18,7 @@
 @property (nonatomic, assign) unsigned short      cSpeedLimit;
 @property (nonatomic, assign) unsigned short      sTime;
 @property (nonatomic, assign) unsigned short      sAngle;
-@property (nonatomic, assign) unsigned short      sDistance;
+@property (nonatomic, assign) NSInteger           nDistance;
 @property (nonatomic, assign) unsigned short      sMapID;
 @property (nonatomic, assign) unsigned short      sLinkID;
 

@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "iNaviNavigationSdk",
+    "printedName": "iNaviNavigationSdk",
     "children": [
       {
         "kind": "Import",
@@ -73,8 +73,9 @@
             "moduleName": "iNaviNavigationSdk",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "AccessControl",
               "ObjC"
@@ -183,6 +184,7 @@
             "mangledName": "$s18iNaviNavigationSdk7InvViewC06updateE0yyF",
             "moduleName": "iNaviNavigationSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -229,6 +231,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -242,6 +245,7 @@
         "moduleName": "iNaviNavigationSdk",
         "objc_name": "InvView",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -255,6 +259,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -329,6 +347,7 @@
         "mangledName": "$s18iNaviNavigationSdk11InvMenuViewC",
         "moduleName": "iNaviNavigationSdk",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -343,6 +362,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -524,6 +557,7 @@
             "moduleName": "iNaviNavigationSdk",
             "overriding": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl",
@@ -553,6 +587,7 @@
             "mangledName": "$s18iNaviNavigationSdk12InvMenuLayerC14startSpinMapBTyySfF",
             "moduleName": "iNaviNavigationSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -578,6 +613,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -591,6 +627,7 @@
         "moduleName": "iNaviNavigationSdk",
         "objc_name": "InvMenuLayer",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -608,10 +645,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "InvViewProtocol",
-            "printedName": "InvViewProtocol",
-            "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol",
-            "mangledName": "$s18iNaviNavigationSdk15InvViewProtocolP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -682,6 +726,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "InvViewProtocol",
+            "printedName": "InvViewProtocol",
+            "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol",
+            "mangledName": "$s18iNaviNavigationSdk15InvViewProtocolP"
           }
         ]
       },
@@ -770,6 +821,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1410,6 +1475,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2001,6 +2080,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2049,6 +2144,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2111,6 +2220,464 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "optimalPosition",
+        "printedName": "optimalPosition",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "x",
+            "printedName": "x",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)optimalPosition(py)x",
+            "mangledName": "$s18iNaviNavigationSdk15optimalPositionC1xSSvp",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iNaviNavigationSdk@objc(cs)optimalPosition(im)x",
+                "mangledName": "$s18iNaviNavigationSdk15optimalPositionC1xSSvg",
+                "moduleName": "iNaviNavigationSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iNaviNavigationSdk@objc(cs)optimalPosition(im)setX:",
+                "mangledName": "$s18iNaviNavigationSdk15optimalPositionC1xSSvs",
+                "moduleName": "iNaviNavigationSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18iNaviNavigationSdk15optimalPositionC1xSSvM",
+                "mangledName": "$s18iNaviNavigationSdk15optimalPositionC1xSSvM",
+                "moduleName": "iNaviNavigationSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "y",
+            "printedName": "y",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)optimalPosition(py)y",
+            "mangledName": "$s18iNaviNavigationSdk15optimalPositionC1ySSvp",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iNaviNavigationSdk@objc(cs)optimalPosition(im)y",
+                "mangledName": "$s18iNaviNavigationSdk15optimalPositionC1ySSvg",
+                "moduleName": "iNaviNavigationSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iNaviNavigationSdk@objc(cs)optimalPosition(im)setY:",
+                "mangledName": "$s18iNaviNavigationSdk15optimalPositionC1ySSvs",
+                "moduleName": "iNaviNavigationSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18iNaviNavigationSdk15optimalPositionC1ySSvM",
+                "mangledName": "$s18iNaviNavigationSdk15optimalPositionC1ySSvM",
+                "moduleName": "iNaviNavigationSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)optimalPosition(py)type",
+            "mangledName": "$s18iNaviNavigationSdk15optimalPositionC4typeSivp",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iNaviNavigationSdk@objc(cs)optimalPosition(im)type",
+                "mangledName": "$s18iNaviNavigationSdk15optimalPositionC4typeSivg",
+                "moduleName": "iNaviNavigationSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iNaviNavigationSdk@objc(cs)optimalPosition(im)setType:",
+                "mangledName": "$s18iNaviNavigationSdk15optimalPositionC4typeSivs",
+                "moduleName": "iNaviNavigationSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18iNaviNavigationSdk15optimalPositionC4typeSivM",
+                "mangledName": "$s18iNaviNavigationSdk15optimalPositionC4typeSivM",
+                "moduleName": "iNaviNavigationSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "optimalPosition",
+                "printedName": "iNaviNavigationSdk.optimalPosition",
+                "usr": "c:@M@iNaviNavigationSdk@objc(cs)optimalPosition"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)optimalPosition(im)init",
+            "mangledName": "$s18iNaviNavigationSdk15optimalPositionCACycfc",
+            "moduleName": "iNaviNavigationSdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "optimalPosition",
+                "printedName": "iNaviNavigationSdk.optimalPosition",
+                "usr": "c:@M@iNaviNavigationSdk@objc(cs)optimalPosition"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18iNaviNavigationSdk15optimalPositionC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s18iNaviNavigationSdk15optimalPositionC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "iNaviNavigationSdk",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18iNaviNavigationSdk15optimalPositionC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s18iNaviNavigationSdk15optimalPositionC6encode2toys7Encoder_p_tKF",
+            "moduleName": "iNaviNavigationSdk",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@iNaviNavigationSdk@objc(cs)optimalPosition",
+        "mangledName": "$s18iNaviNavigationSdk15optimalPositionC",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -2148,6 +2715,255 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "INVCommon",
+        "printedName": "INVCommon",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sharedInstance",
+            "printedName": "sharedInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "INVCommon",
+                "printedName": "iNaviNavigationSdk.INVCommon",
+                "usr": "c:@M@iNaviNavigationSdk@objc(cs)INVCommon"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)INVCommon(cpy)sharedInstance",
+            "mangledName": "$s18iNaviNavigationSdk9INVCommonC14sharedInstanceACvpZ",
+            "moduleName": "iNaviNavigationSdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "INVCommon",
+                    "printedName": "iNaviNavigationSdk.INVCommon",
+                    "usr": "c:@M@iNaviNavigationSdk@objc(cs)INVCommon"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iNaviNavigationSdk@objc(cs)INVCommon(cm)sharedInstance",
+                "mangledName": "$s18iNaviNavigationSdk9INVCommonC14sharedInstanceACvgZ",
+                "moduleName": "iNaviNavigationSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getOptimalPosition",
+            "printedName": "getOptimalPosition(_:posy:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([iNaviNavigationSdk.optimalPosition]?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[iNaviNavigationSdk.optimalPosition]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[iNaviNavigationSdk.optimalPosition]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "optimalPosition",
+                            "printedName": "iNaviNavigationSdk.optimalPosition",
+                            "usr": "c:@M@iNaviNavigationSdk@objc(cs)optimalPosition"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)INVCommon(im)getOptimalPosition:posy:completionHandler:",
+            "mangledName": "$s18iNaviNavigationSdk9INVCommonC18getOptimalPosition_4posy17completionHandlerySS_SSySayAA07optimalG0CGSgctF",
+            "moduleName": "iNaviNavigationSdk",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "INVCommon",
+                "printedName": "iNaviNavigationSdk.INVCommon",
+                "usr": "c:@M@iNaviNavigationSdk@objc(cs)INVCommon"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@iNaviNavigationSdk@objc(cs)INVCommon(im)init",
+            "mangledName": "$s18iNaviNavigationSdk9INVCommonCACycfc",
+            "moduleName": "iNaviNavigationSdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@iNaviNavigationSdk@objc(cs)INVCommon",
+        "mangledName": "$s18iNaviNavigationSdk9INVCommonC",
+        "moduleName": "iNaviNavigationSdk",
+        "objc_name": "INVCommon",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iNaviNavigationSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "InvGuideLayer",
         "printedName": "InvGuideLayer",
@@ -2169,6 +2985,7 @@
             "moduleName": "iNaviNavigationSdk",
             "overriding": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override",
@@ -2192,6 +3009,7 @@
             "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC18layoutVisbleUpdateyyF",
             "moduleName": "iNaviNavigationSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -2220,6 +3038,7 @@
             "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC19settingLeftSafeAreayy12CoreGraphics7CGFloatVF",
             "moduleName": "iNaviNavigationSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -2248,6 +3067,7 @@
             "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC20settingRightSafeAreayy12CoreGraphics7CGFloatVF",
             "moduleName": "iNaviNavigationSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -2276,6 +3096,7 @@
             "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC11setTbtColoryySo7UIColorCF",
             "moduleName": "iNaviNavigationSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -2304,6 +3125,7 @@
             "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC15setNextTbtColoryySo7UIColorCF",
             "moduleName": "iNaviNavigationSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -2386,6 +3208,7 @@
             "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC06updateE5Infos_12nextTurnInfo04laneK08roadType16isSimulationMode0O11ZoomVisibleySo0ejK0CSg_ALSo0e4LaneK0CSgSo9ROAD_TYPEaS2btF",
             "moduleName": "iNaviNavigationSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -2442,6 +3265,7 @@
             "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC13updateMMCInfo_13mmcModuleData16isSimulationModeySo13IAMMCDataInfoCSg_So09MMCModuleK0CSgSbtF",
             "moduleName": "iNaviNavigationSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -2510,6 +3334,7 @@
             "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC6update_8safeInfo8roadType8nowSpeed16isSimulationModeySo0e3CamI0CSg_So0e4SafeI0CSgSo9ROAD_TYPEaSiSbtF",
             "moduleName": "iNaviNavigationSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -2574,6 +3399,7 @@
             "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC15highWayInfoList_06isHighhI00K11ZoomVisibleySaySo0e7HigiwayI0CGSg_So8NSNumberCSgSbtF",
             "moduleName": "iNaviNavigationSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -2596,6 +3422,7 @@
             "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC14didRealEndInfoyyF",
             "moduleName": "iNaviNavigationSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -2646,6 +3473,7 @@
             "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC13updateVmsView_3msgySSSg_AFtF",
             "moduleName": "iNaviNavigationSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -2674,6 +3502,7 @@
             "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC17updateProgressBaryySiF",
             "moduleName": "iNaviNavigationSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -2697,6 +3526,7 @@
             "mangledName": "$s18iNaviNavigationSdk13InvGuideLayerC15getBottomHeight12CoreGraphics7CGFloatVyF",
             "moduleName": "iNaviNavigationSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -2722,6 +3552,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2747,6 +3578,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2772,6 +3604,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2797,6 +3630,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2822,6 +3656,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2835,6 +3670,7 @@
         "moduleName": "iNaviNavigationSdk",
         "objc_name": "InvGuideLayer",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -2851,10 +3687,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "InvViewProtocol",
-            "printedName": "InvViewProtocol",
-            "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol",
-            "mangledName": "$s18iNaviNavigationSdk15InvViewProtocolP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -2925,6 +3768,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "InvViewProtocol",
+            "printedName": "InvViewProtocol",
+            "usr": "c:@M@iNaviNavigationSdk@objc(pl)InvViewProtocol",
+            "mangledName": "$s18iNaviNavigationSdk15InvViewProtocolP"
           }
         ]
       },
@@ -3071,6 +3921,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3202,62 +4066,6 @@
       "value": "\"999\""
     },
     {
-      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/ResponseDefine.swift",
-      "kind": "StringLiteral",
-      "offset": 644,
-      "length": 3,
-      "value": "\"0\""
-    },
-    {
-      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/ResponseDefine.swift",
-      "kind": "StringLiteral",
-      "offset": 670,
-      "length": 5,
-      "value": "\"501\""
-    },
-    {
-      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/ResponseDefine.swift",
-      "kind": "StringLiteral",
-      "offset": 697,
-      "length": 5,
-      "value": "\"800\""
-    },
-    {
-      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/ResponseDefine.swift",
-      "kind": "StringLiteral",
-      "offset": 725,
-      "length": 5,
-      "value": "\"900\""
-    },
-    {
-      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/ResponseDefine.swift",
-      "kind": "StringLiteral",
-      "offset": 752,
-      "length": 5,
-      "value": "\"920\""
-    },
-    {
-      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/ResponseDefine.swift",
-      "kind": "StringLiteral",
-      "offset": 786,
-      "length": 5,
-      "value": "\"901\""
-    },
-    {
-      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/ResponseDefine.swift",
-      "kind": "StringLiteral",
-      "offset": 824,
-      "length": 5,
-      "value": "\"972\""
-    },
-    {
-      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/ResponseDefine.swift",
-      "kind": "StringLiteral",
-      "offset": 855,
-      "length": 5,
-      "value": "\"999\""
-    },
-    {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvView.swift",
       "kind": "BooleanLiteral",
       "offset": 403,
@@ -3267,37 +4075,93 @@
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvSafeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 543,
+      "offset": 764,
       "length": 2,
       "value": "33"
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvSafeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 577,
+      "offset": 798,
       "length": 2,
       "value": "56"
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvSafeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 607,
+      "offset": 828,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvSafeView.swift",
       "kind": "FloatLiteral",
-      "offset": 641,
+      "offset": 862,
       "length": 4,
       "value": "17.6"
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvSafeView.swift",
+      "kind": "FloatLiteral",
+      "offset": 891,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvSafeView.swift",
+      "kind": "FloatLiteral",
+      "offset": 940,
+      "length": 4,
+      "value": "18.0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvSafeView.swift",
+      "kind": "FloatLiteral",
+      "offset": 990,
+      "length": 4,
+      "value": "52.0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvSafeView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1041,
+      "length": 4,
+      "value": "31.0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvSafeView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1094,
+      "length": 4,
+      "value": "22.0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvSafeView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1152,
+      "length": 4,
+      "value": "49.0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvSafeView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1211,
+      "length": 4,
+      "value": "29.0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvSafeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 696,
+      "offset": 1266,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvSafeView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1301,
+      "length": 2,
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvHighWayView.swift",
@@ -3452,34 +4316,6 @@
       "offset": 384,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 212,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 236,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 212,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 236,
-      "length": 1,
-      "value": "2"
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Manager\/ShiManager.swift",
@@ -4042,6 +4878,34 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 4955,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 5095,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "StringLiteral",
+      "offset": 5131,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/Model\/Responses.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5167,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/Component\/InvBottomMainView.swift",
       "kind": "IntegerLiteral",
       "offset": 241,
@@ -4100,49 +4964,21 @@
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/AirAPI.swift",
       "kind": "StringLiteral",
-      "offset": 390,
-      "length": 24,
-      "value": "\"\/shiSdk\/getTFlimitInfo\""
+      "offset": 635,
+      "length": 23,
+      "value": "\"\/sire\/optimalPosition\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/AirAPI.swift",
       "kind": "StringLiteral",
-      "offset": 439,
-      "length": 25,
-      "value": "\"\/shiSdk\/getDrivStopInfo\""
-    },
-    {
-      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/AirAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 489,
-      "length": 25,
-      "value": "\"\/shiSdk\/getDisasterInfo\""
-    },
-    {
-      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/AirAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 537,
-      "length": 20,
-      "value": "\"\/shiSdk\/sendShiGps\""
-    },
-    {
-      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/AirAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 582,
-      "length": 25,
-      "value": "\"\/shiSdk\/getStopAreaInfo\""
-    },
-    {
-      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/AirAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 2241,
+      "offset": 2549,
       "length": 7,
       "value": "\"https\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/NaviSDK\/NetworkNew\/AirAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2438,
+      "offset": 2746,
       "length": 11,
       "value": "\"\/INaviAir\""
     },
@@ -10092,1603 +10928,1638 @@
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 145610,
+      "offset": 145612,
+      "length": 27,
+      "value": "\"inv_map_safe_sign_bg27_tm\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 145794,
+      "length": 27,
+      "value": "\"inv_map_safe_sign_bg28_tm\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 145976,
+      "length": 27,
+      "value": "\"inv_map_safe_sign_bg29_tm\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 146158,
+      "length": 27,
+      "value": "\"inv_map_safe_sign_bg30_tm\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 146340,
+      "length": 27,
+      "value": "\"inv_map_safe_sign_bg31_tm\""
+    },
+    {
+      "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 146520,
       "length": 26,
       "value": "\"inv_map_safe_sign_n00_tm\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 145789,
+      "offset": 146699,
       "length": 26,
       "value": "\"inv_map_safe_sign_n01_tm\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 145968,
+      "offset": 146878,
       "length": 26,
       "value": "\"inv_map_safe_sign_n02_tm\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 146147,
+      "offset": 147057,
       "length": 26,
       "value": "\"inv_map_safe_sign_n03_tm\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 146326,
+      "offset": 147236,
       "length": 26,
       "value": "\"inv_map_safe_sign_n04_tm\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 146505,
+      "offset": 147415,
       "length": 26,
       "value": "\"inv_map_safe_sign_n05_tm\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 146684,
+      "offset": 147594,
       "length": 26,
       "value": "\"inv_map_safe_sign_n06_tm\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 146863,
+      "offset": 147773,
       "length": 26,
       "value": "\"inv_map_safe_sign_n07_tm\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 147042,
+      "offset": 147952,
       "length": 26,
       "value": "\"inv_map_safe_sign_n08_tm\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 147221,
+      "offset": 148131,
       "length": 26,
       "value": "\"inv_map_safe_sign_n09_tm\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 147400,
+      "offset": 148310,
       "length": 26,
       "value": "\"inv_map_safe_sign_n10_tm\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 147579,
+      "offset": 148489,
       "length": 26,
       "value": "\"inv_map_safe_sign_o00_tm\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 147758,
+      "offset": 148668,
       "length": 26,
       "value": "\"inv_map_safe_sign_o01_tm\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 147937,
+      "offset": 148847,
       "length": 26,
       "value": "\"inv_map_safe_sign_o02_tm\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 148116,
+      "offset": 149026,
       "length": 26,
       "value": "\"inv_map_safe_sign_o03_tm\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 148295,
+      "offset": 149205,
       "length": 26,
       "value": "\"inv_map_safe_sign_o04_tm\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 148474,
+      "offset": 149384,
       "length": 26,
       "value": "\"inv_map_safe_sign_o05_tm\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 148653,
+      "offset": 149563,
       "length": 26,
       "value": "\"inv_map_safe_sign_o06_tm\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 148832,
+      "offset": 149742,
       "length": 26,
       "value": "\"inv_map_safe_sign_o07_tm\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 149011,
+      "offset": 149921,
       "length": 26,
       "value": "\"inv_map_safe_sign_o08_tm\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 149190,
+      "offset": 150100,
       "length": 26,
       "value": "\"inv_map_safe_sign_o09_tm\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 149369,
+      "offset": 150279,
       "length": 26,
       "value": "\"inv_map_safe_sign_o10_tm\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 149535,
+      "offset": 150445,
       "length": 19,
       "value": "\"inv_map_text_2_tm\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 149691,
+      "offset": 150601,
       "length": 17,
       "value": "\"inv_map_text_tm\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 149853,
+      "offset": 150763,
       "length": 21,
       "value": "\"inv_map_traffic_pin\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 150018,
+      "offset": 150928,
       "length": 21,
       "value": "\"inv_map_vms_ic_noti\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 150206,
+      "offset": 151116,
       "length": 33,
       "value": "\"inv_mapbt_n_turn_code_departure\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 150408,
+      "offset": 151318,
       "length": 34,
       "value": "\"inv_mapbt_n_turn_code_destiation\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 150597,
+      "offset": 151507,
       "length": 27,
       "value": "\"inv_mapbt_n_turn_code_via\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 150788,
+      "offset": 151698,
       "length": 31,
       "value": "\"inv_mapbt_turn_code_departure\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 150985,
+      "offset": 151895,
       "length": 32,
       "value": "\"inv_mapbt_turn_code_destiation\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 151185,
+      "offset": 152095,
       "length": 33,
       "value": "\"inv_mapbt_turn_code_destination\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 151370,
+      "offset": 152280,
       "length": 25,
       "value": "\"inv_mapbt_turn_code_via\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 151541,
+      "offset": 152451,
       "length": 22,
       "value": "\"inv_new_turn_code_03\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 151712,
+      "offset": 152622,
       "length": 24,
       "value": "\"inv_new_turn_code_03-1\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 151882,
+      "offset": 152792,
       "length": 22,
       "value": "\"inv_new_turn_code_04\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 152050,
+      "offset": 152960,
       "length": 22,
       "value": "\"inv_new_turn_code_05\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 152218,
+      "offset": 153128,
       "length": 22,
       "value": "\"inv_new_turn_code_06\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 152386,
+      "offset": 153296,
       "length": 22,
       "value": "\"inv_new_turn_code_07\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 152554,
+      "offset": 153464,
       "length": 22,
       "value": "\"inv_new_turn_code_08\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 152722,
+      "offset": 153632,
       "length": 22,
       "value": "\"inv_new_turn_code_09\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 152890,
+      "offset": 153800,
       "length": 22,
       "value": "\"inv_new_turn_code_10\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 153058,
+      "offset": 153968,
       "length": 22,
       "value": "\"inv_new_turn_code_11\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 153226,
+      "offset": 154136,
       "length": 22,
       "value": "\"inv_new_turn_code_12\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 153394,
+      "offset": 154304,
       "length": 22,
       "value": "\"inv_new_turn_code_13\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 153562,
+      "offset": 154472,
       "length": 22,
       "value": "\"inv_new_turn_code_14\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 153730,
+      "offset": 154640,
       "length": 22,
       "value": "\"inv_new_turn_code_16\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 153898,
+      "offset": 154808,
       "length": 22,
       "value": "\"inv_new_turn_code_17\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 154066,
+      "offset": 154976,
       "length": 22,
       "value": "\"inv_new_turn_code_19\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 154234,
+      "offset": 155144,
       "length": 22,
       "value": "\"inv_new_turn_code_21\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 154402,
+      "offset": 155312,
       "length": 22,
       "value": "\"inv_new_turn_code_23\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 154570,
+      "offset": 155480,
       "length": 22,
       "value": "\"inv_new_turn_code_25\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 154738,
+      "offset": 155648,
       "length": 22,
       "value": "\"inv_new_turn_code_27\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 154906,
+      "offset": 155816,
       "length": 22,
       "value": "\"inv_new_turn_code_28\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 155074,
+      "offset": 155984,
       "length": 22,
       "value": "\"inv_new_turn_code_30\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 155242,
+      "offset": 156152,
       "length": 22,
       "value": "\"inv_new_turn_code_31\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 155410,
+      "offset": 156320,
       "length": 22,
       "value": "\"inv_new_turn_code_34\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 155578,
+      "offset": 156488,
       "length": 22,
       "value": "\"inv_new_turn_code_36\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 155746,
+      "offset": 156656,
       "length": 22,
       "value": "\"inv_new_turn_code_37\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 155914,
+      "offset": 156824,
       "length": 22,
       "value": "\"inv_new_turn_code_40\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 156082,
+      "offset": 156992,
       "length": 22,
       "value": "\"inv_new_turn_code_42\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 156250,
+      "offset": 157160,
       "length": 22,
       "value": "\"inv_new_turn_code_43\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 156418,
+      "offset": 157328,
       "length": 22,
       "value": "\"inv_new_turn_code_46\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 156586,
+      "offset": 157496,
       "length": 22,
       "value": "\"inv_new_turn_code_48\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 156754,
+      "offset": 157664,
       "length": 22,
       "value": "\"inv_new_turn_code_49\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 156922,
+      "offset": 157832,
       "length": 22,
       "value": "\"inv_new_turn_code_52\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 157090,
+      "offset": 158000,
       "length": 22,
       "value": "\"inv_new_turn_code_54\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 157258,
+      "offset": 158168,
       "length": 22,
       "value": "\"inv_new_turn_code_55\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 157426,
+      "offset": 158336,
       "length": 22,
       "value": "\"inv_new_turn_code_57\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 157594,
+      "offset": 158504,
       "length": 22,
       "value": "\"inv_new_turn_code_60\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 157762,
+      "offset": 158672,
       "length": 22,
       "value": "\"inv_new_turn_code_74\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 157930,
+      "offset": 158840,
       "length": 22,
       "value": "\"inv_new_turn_code_76\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 158098,
+      "offset": 159008,
       "length": 22,
       "value": "\"inv_new_turn_code_77\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 158266,
+      "offset": 159176,
       "length": 22,
       "value": "\"inv_new_turn_code_78\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 158434,
+      "offset": 159344,
       "length": 22,
       "value": "\"inv_new_turn_code_79\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 158602,
+      "offset": 159512,
       "length": 22,
       "value": "\"inv_new_turn_code_80\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 158770,
+      "offset": 159680,
       "length": 22,
       "value": "\"inv_new_turn_code_81\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 158920,
+      "offset": 159830,
       "length": 12,
       "value": "\"inv_pin_me\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 159068,
+      "offset": 159978,
       "length": 17,
       "value": "\"inv_poi_ic_01_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 159221,
+      "offset": 160131,
       "length": 17,
       "value": "\"inv_poi_ic_01_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 159374,
+      "offset": 160284,
       "length": 17,
       "value": "\"inv_poi_ic_02_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 159527,
+      "offset": 160437,
       "length": 17,
       "value": "\"inv_poi_ic_02_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 159680,
+      "offset": 160590,
       "length": 17,
       "value": "\"inv_poi_ic_03_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 159833,
+      "offset": 160743,
       "length": 17,
       "value": "\"inv_poi_ic_03_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 159986,
+      "offset": 160896,
       "length": 17,
       "value": "\"inv_poi_ic_04_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 160139,
+      "offset": 161049,
       "length": 17,
       "value": "\"inv_poi_ic_04_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 160292,
+      "offset": 161202,
       "length": 17,
       "value": "\"inv_poi_ic_05_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 160445,
+      "offset": 161355,
       "length": 17,
       "value": "\"inv_poi_ic_05_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 160598,
+      "offset": 161508,
       "length": 17,
       "value": "\"inv_poi_ic_06_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 160751,
+      "offset": 161661,
       "length": 17,
       "value": "\"inv_poi_ic_06_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 160904,
+      "offset": 161814,
       "length": 17,
       "value": "\"inv_poi_ic_07_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 161057,
+      "offset": 161967,
       "length": 17,
       "value": "\"inv_poi_ic_07_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 161210,
+      "offset": 162120,
       "length": 17,
       "value": "\"inv_poi_ic_08_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 161363,
+      "offset": 162273,
       "length": 17,
       "value": "\"inv_poi_ic_08_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 161516,
+      "offset": 162426,
       "length": 17,
       "value": "\"inv_poi_ic_09_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 161669,
+      "offset": 162579,
       "length": 17,
       "value": "\"inv_poi_ic_09_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 161822,
+      "offset": 162732,
       "length": 17,
       "value": "\"inv_poi_ic_10_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 161975,
+      "offset": 162885,
       "length": 17,
       "value": "\"inv_poi_ic_10_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 162128,
+      "offset": 163038,
       "length": 17,
       "value": "\"inv_poi_ic_11_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 162281,
+      "offset": 163191,
       "length": 17,
       "value": "\"inv_poi_ic_11_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 162434,
+      "offset": 163344,
       "length": 17,
       "value": "\"inv_poi_ic_12_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 162587,
+      "offset": 163497,
       "length": 17,
       "value": "\"inv_poi_ic_12_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 162752,
+      "offset": 163662,
       "length": 23,
       "value": "\"inv_pop_viewmode_3d_d\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 162923,
+      "offset": 163833,
       "length": 23,
       "value": "\"inv_pop_viewmode_3d_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 163094,
+      "offset": 164004,
       "length": 23,
       "value": "\"inv_pop_viewmode_3d_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 163265,
+      "offset": 164175,
       "length": 23,
       "value": "\"inv_pop_viewmode_3d_s\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 163446,
+      "offset": 164356,
       "length": 28,
       "value": "\"inv_pop_viewmode_cartoon_d\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 163632,
+      "offset": 164542,
       "length": 28,
       "value": "\"inv_pop_viewmode_cartoon_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 163818,
+      "offset": 164728,
       "length": 28,
       "value": "\"inv_pop_viewmode_cartoon_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 164004,
+      "offset": 164914,
       "length": 28,
       "value": "\"inv_pop_viewmode_cartoon_s\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 164188,
+      "offset": 165098,
       "length": 27,
       "value": "\"inv_pop_viewmode_nature_d\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 164371,
+      "offset": 165281,
       "length": 27,
       "value": "\"inv_pop_viewmode_nature_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 164554,
+      "offset": 165464,
       "length": 27,
       "value": "\"inv_pop_viewmode_nature_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 164737,
+      "offset": 165647,
       "length": 27,
       "value": "\"inv_pop_viewmode_nature_s\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 164920,
+      "offset": 165830,
       "length": 27,
       "value": "\"inv_pop_viewmode_normal_d\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 165103,
+      "offset": 166013,
       "length": 27,
       "value": "\"inv_pop_viewmode_normal_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 165286,
+      "offset": 166196,
       "length": 27,
       "value": "\"inv_pop_viewmode_normal_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 165469,
+      "offset": 166379,
       "length": 27,
       "value": "\"inv_pop_viewmode_normal_s\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 165647,
+      "offset": 166557,
       "length": 24,
       "value": "\"inv_popup_controlbar_d\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 165822,
+      "offset": 166732,
       "length": 24,
       "value": "\"inv_popup_controlbar_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 165997,
+      "offset": 166907,
       "length": 24,
       "value": "\"inv_popup_controlbar_s\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 166162,
+      "offset": 167072,
       "length": 19,
       "value": "\"inv_popup_ic_mute\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 166326,
+      "offset": 167236,
       "length": 21,
       "value": "\"inv_popup_ic_volume\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 166508,
+      "offset": 167418,
       "length": 29,
       "value": "\"inv_popup_volume_controller\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 166701,
+      "offset": 167611,
       "length": 31,
       "value": "\"inv_popup_volume_controller_d\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 166896,
+      "offset": 167806,
       "length": 31,
       "value": "\"inv_popup_volume_controller_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 167091,
+      "offset": 168001,
       "length": 31,
       "value": "\"inv_popup_volume_controller_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 167270,
+      "offset": 168180,
       "length": 23,
       "value": "\"inv_search_ic_arrow_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 167441,
+      "offset": 168351,
       "length": 23,
       "value": "\"inv_search_ic_arrow_s\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 167611,
+      "offset": 168521,
       "length": 22,
       "value": "\"inv_search_ic_recent\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 167774,
+      "offset": 168684,
       "length": 19,
       "value": "\"inv_title_close_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 167934,
+      "offset": 168844,
       "length": 19,
       "value": "\"inv_title_close_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 168102,
+      "offset": 169012,
       "length": 23,
       "value": "\"inv_title_detailset_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 168274,
+      "offset": 169184,
       "length": 23,
       "value": "\"inv_title_detailset_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 168437,
+      "offset": 169347,
       "length": 18,
       "value": "\"inv_title_divide\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 168609,
+      "offset": 169519,
       "length": 26,
       "value": "\"inv_title_ic_arrowdown_d\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 168789,
+      "offset": 169699,
       "length": 26,
       "value": "\"inv_title_ic_arrowdown_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 168969,
+      "offset": 169879,
       "length": 26,
       "value": "\"inv_title_ic_arrowdown_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 169145,
+      "offset": 170055,
       "length": 24,
       "value": "\"inv_title_ic_arrowup_d\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 169319,
+      "offset": 170229,
       "length": 24,
       "value": "\"inv_title_ic_arrowup_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 169493,
+      "offset": 170403,
       "length": 24,
       "value": "\"inv_title_ic_arrowup_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 169667,
+      "offset": 170577,
       "length": 24,
       "value": "\"inv_title_ic_delete2_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 169841,
+      "offset": 170751,
       "length": 24,
       "value": "\"inv_title_ic_delete2_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 170013,
+      "offset": 170923,
       "length": 23,
       "value": "\"inv_title_ic_delete_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 170184,
+      "offset": 171094,
       "length": 23,
       "value": "\"inv_title_ic_delete_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 170344,
+      "offset": 171254,
       "length": 17,
       "value": "\"inv_title_mic_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 170498,
+      "offset": 171408,
       "length": 17,
       "value": "\"inv_title_mic_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 170652,
+      "offset": 171562,
       "length": 17,
       "value": "\"inv_title_pre_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 170806,
+      "offset": 171716,
       "length": 17,
       "value": "\"inv_title_pre_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 170966,
+      "offset": 171876,
       "length": 20,
       "value": "\"inv_title_search_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 171129,
+      "offset": 172039,
       "length": 20,
       "value": "\"inv_title_search_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 171288,
+      "offset": 172198,
       "length": 18,
       "value": "\"inv_turn_code_03\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 171445,
+      "offset": 172355,
       "length": 18,
       "value": "\"inv_turn_code_04\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 171602,
+      "offset": 172512,
       "length": 18,
       "value": "\"inv_turn_code_05\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 171759,
+      "offset": 172669,
       "length": 18,
       "value": "\"inv_turn_code_06\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 171916,
+      "offset": 172826,
       "length": 18,
       "value": "\"inv_turn_code_07\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 172073,
+      "offset": 172983,
       "length": 18,
       "value": "\"inv_turn_code_08\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 172230,
+      "offset": 173140,
       "length": 18,
       "value": "\"inv_turn_code_09\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 172387,
+      "offset": 173297,
       "length": 18,
       "value": "\"inv_turn_code_10\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 172544,
+      "offset": 173454,
       "length": 18,
       "value": "\"inv_turn_code_11\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 172701,
+      "offset": 173611,
       "length": 18,
       "value": "\"inv_turn_code_12\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 172858,
+      "offset": 173768,
       "length": 18,
       "value": "\"inv_turn_code_13\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 173015,
+      "offset": 173925,
       "length": 18,
       "value": "\"inv_turn_code_14\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 173172,
+      "offset": 174082,
       "length": 18,
       "value": "\"inv_turn_code_16\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 173329,
+      "offset": 174239,
       "length": 18,
       "value": "\"inv_turn_code_17\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 173486,
+      "offset": 174396,
       "length": 18,
       "value": "\"inv_turn_code_19\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 173643,
+      "offset": 174553,
       "length": 18,
       "value": "\"inv_turn_code_21\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 173800,
+      "offset": 174710,
       "length": 18,
       "value": "\"inv_turn_code_23\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 173957,
+      "offset": 174867,
       "length": 18,
       "value": "\"inv_turn_code_25\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 174114,
+      "offset": 175024,
       "length": 18,
       "value": "\"inv_turn_code_27\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 174271,
+      "offset": 175181,
       "length": 18,
       "value": "\"inv_turn_code_28\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 174428,
+      "offset": 175338,
       "length": 18,
       "value": "\"inv_turn_code_30\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 174585,
+      "offset": 175495,
       "length": 18,
       "value": "\"inv_turn_code_31\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 174742,
+      "offset": 175652,
       "length": 18,
       "value": "\"inv_turn_code_34\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 174899,
+      "offset": 175809,
       "length": 18,
       "value": "\"inv_turn_code_36\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 175056,
+      "offset": 175966,
       "length": 18,
       "value": "\"inv_turn_code_37\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 175213,
+      "offset": 176123,
       "length": 18,
       "value": "\"inv_turn_code_40\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 175370,
+      "offset": 176280,
       "length": 18,
       "value": "\"inv_turn_code_42\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 175527,
+      "offset": 176437,
       "length": 18,
       "value": "\"inv_turn_code_43\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 175684,
+      "offset": 176594,
       "length": 18,
       "value": "\"inv_turn_code_46\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 175841,
+      "offset": 176751,
       "length": 18,
       "value": "\"inv_turn_code_48\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 175998,
+      "offset": 176908,
       "length": 18,
       "value": "\"inv_turn_code_49\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 176155,
+      "offset": 177065,
       "length": 18,
       "value": "\"inv_turn_code_52\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 176312,
+      "offset": 177222,
       "length": 18,
       "value": "\"inv_turn_code_54\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 176469,
+      "offset": 177379,
       "length": 18,
       "value": "\"inv_turn_code_55\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 176626,
+      "offset": 177536,
       "length": 18,
       "value": "\"inv_turn_code_57\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 176783,
+      "offset": 177693,
       "length": 18,
       "value": "\"inv_turn_code_60\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 176940,
+      "offset": 177850,
       "length": 18,
       "value": "\"inv_turn_code_61\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 177097,
+      "offset": 178007,
       "length": 18,
       "value": "\"inv_turn_code_62\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 177254,
+      "offset": 178164,
       "length": 18,
       "value": "\"inv_turn_code_63\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 177411,
+      "offset": 178321,
       "length": 18,
       "value": "\"inv_turn_code_64\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 177568,
+      "offset": 178478,
       "length": 18,
       "value": "\"inv_turn_code_65\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 177725,
+      "offset": 178635,
       "length": 18,
       "value": "\"inv_turn_code_66\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 177882,
+      "offset": 178792,
       "length": 18,
       "value": "\"inv_turn_code_67\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 178039,
+      "offset": 178949,
       "length": 18,
       "value": "\"inv_turn_code_68\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 178196,
+      "offset": 179106,
       "length": 18,
       "value": "\"inv_turn_code_69\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 178353,
+      "offset": 179263,
       "length": 18,
       "value": "\"inv_turn_code_70\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 178510,
+      "offset": 179420,
       "length": 18,
       "value": "\"inv_turn_code_71\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 178669,
+      "offset": 179579,
       "length": 19,
       "value": "\"inv_turn_code_721\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 178829,
+      "offset": 179739,
       "length": 19,
       "value": "\"inv_turn_code_722\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 179287,
+      "offset": 180197,
       "length": 19,
       "value": "\"inv_turn_code_731\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 179447,
+      "offset": 180357,
       "length": 19,
       "value": "\"inv_turn_code_732\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 179903,
+      "offset": 180813,
       "length": 18,
       "value": "\"inv_turn_code_74\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 180060,
+      "offset": 180970,
       "length": 18,
       "value": "\"inv_turn_code_76\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 180217,
+      "offset": 181127,
       "length": 18,
       "value": "\"inv_turn_code_77\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 180374,
+      "offset": 181284,
       "length": 18,
       "value": "\"inv_turn_code_78\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 180531,
+      "offset": 181441,
       "length": 18,
       "value": "\"inv_turn_code_79\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 180688,
+      "offset": 181598,
       "length": 18,
       "value": "\"inv_turn_code_80\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 180845,
+      "offset": 181755,
       "length": 18,
       "value": "\"inv_turn_code_81\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 181006,
+      "offset": 181916,
       "length": 20,
       "value": "\"inv_tuta_btn_car01\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 181169,
+      "offset": 182079,
       "length": 20,
       "value": "\"inv_tuta_btn_car02\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 181332,
+      "offset": 182242,
       "length": 20,
       "value": "\"inv_tuta_btn_car03\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 181495,
+      "offset": 182405,
       "length": 20,
       "value": "\"inv_tuta_btn_car04\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 181658,
+      "offset": 182568,
       "length": 20,
       "value": "\"inv_tuta_btn_car05\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 181821,
+      "offset": 182731,
       "length": 20,
       "value": "\"inv_tuta_btn_car06\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 181990,
+      "offset": 182900,
       "length": 23,
       "value": "\"inv_tuta_btn_energy01\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 182162,
+      "offset": 183072,
       "length": 23,
       "value": "\"inv_tuta_btn_energy02\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 182334,
+      "offset": 183244,
       "length": 23,
       "value": "\"inv_tuta_btn_energy03\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 182506,
+      "offset": 183416,
       "length": 23,
       "value": "\"inv_tuta_btn_energy04\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 182678,
+      "offset": 183588,
       "length": 23,
       "value": "\"inv_tuta_btn_energy05\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 182845,
+      "offset": 183755,
       "length": 21,
       "value": "\"inv_tuta_btn_next_n\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 183010,
+      "offset": 183920,
       "length": 21,
       "value": "\"inv_tuta_btn_next_p\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 183174,
+      "offset": 184084,
       "length": 20,
       "value": "\"inv_tuta_icon_down\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 183333,
+      "offset": 184243,
       "length": 18,
       "value": "\"inv_tuta_icon_up\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 183491,
+      "offset": 184401,
       "length": 18,
       "value": "\"map_pin_accident\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 183643,
+      "offset": 184553,
       "length": 15,
       "value": "\"map_pin_noway\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 183803,
+      "offset": 184713,
       "length": 21,
       "value": "\"tkl_map_cartype_001\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 183959,
+      "offset": 184869,
       "length": 16,
       "value": "\"tkl_map_ic_fee\""
     },
     {
       "filePath": "\/Users\/daecheolkim\/Documents\/workspace\/inavi-navigation-sdk\/NaviSDK\/build\/NaviSDK.build\/Release-iphonesimulator\/NaviSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 184112,
+      "offset": 185022,
       "length": 17,
       "value": "\"tkl_map_ic_time\""
     }
