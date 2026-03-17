@@ -134,6 +134,12 @@ INAVI_EXPORT
 @property (nonatomic) Boolean bTruckType;
 
 /**
+ 위수지역 회피탐색 여부 설정
+ 기본값은 false입니다.
+ */
+@property (nonatomic) Boolean bAvoidEvasion;
+
+/**
  첫번째 탐색 옵션 타입
  기본값은 빠른길 입니다.
  */
