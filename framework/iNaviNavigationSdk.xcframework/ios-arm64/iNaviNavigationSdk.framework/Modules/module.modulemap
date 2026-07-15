@@ -10,5 +10,4 @@ framework module iNaviNavigationSdk {
 
 module iNaviNavigationSdk.Swift {
   header "iNaviNavigationSdk-Swift.h"
-  requires objc
 }

@@ -170,6 +170,25 @@ typedef NS_ENUM(NSUInteger, INVRouteOptionType) {
 };
 
 
+// 안전운행 안내 설정 (AOS GUIDANCESETTING 1:1 대응, 동일 순서)
+typedef NS_ENUM(NSInteger, INVGuidanceSetting) {
+    INVGuidanceMoveOverspeed = 0,   // 이동식 과속 단속 카메라
+    INVGuidanceMoveBoxOverspeed,    // 박스형 과속 단속 카메라
+    INVGuidanceInterrupt,           // 끼어들기 단속
+    INVGuidanceOverload,            // 과적단속
+    INVGuidanceFixTraffic,          // 교통정보수집 카메라
+    INVGuidanceCurve,               // 급커브 구간
+    INVGuidanceAccident,            // 사고다발 구간
+    INVGuidanceSpeedBump,           // 과속방지턱
+    INVGuidanceSchoolZone,          // 스쿨존/실버존
+    INVGuidanceWildAnimal,          // 야생동물 출현
+    INVGuidanceTrainTrack,          // 철도건널목
+    INVGuidanceRoadDrop,            // 낙석 구간
+    INVGuidanceGreenArea,           // 녹색교통지역 진입
+    INVGuidanceHeightLimit,         // 높이제한구역
+};
+
+
 typedef NS_ENUM(NSUInteger, INVMapDayNightMode) {
     /**
      시간대별 주/야 자동 변경

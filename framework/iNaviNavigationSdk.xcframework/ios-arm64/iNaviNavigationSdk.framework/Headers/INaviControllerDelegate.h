@@ -52,6 +52,15 @@
 
 
 /**
+ 지도 회전 각도(나침반)가 변경될 때 호출 됩니다.
+
+ @param mapView 'iNaviMapView' 객체
+ @param angle 지도 회전 각도(도 단위, 0=정북 시계방향)
+*/
+- (void)mapView:(nonnull INaviMapView *)mapView didChangedMapAngle:(double)angle NS_SWIFT_NAME(mapView(_:didChangedMapAngle:));
+
+
+/**
  주행 재탐색 성공시 호출 됩니다.
 
  @param mapView 'iNaviMapView' 객체

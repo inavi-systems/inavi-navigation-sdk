@@ -103,9 +103,16 @@ alpha:1.0]
 //                                                          [NSNumber numberWithUnsignedInt:0xFF974BD8],\
 //                                                          [NSNumber numberWithUnsignedInt:0xFF319CFC],\
 //                                                          nil]
-#define IDS_SETTING_LINE_COLOR  [NSArray arrayWithObjects:[NSNumber numberWithUnsignedInt:0xFF319CFC],\
-                                                          [NSNumber numberWithUnsignedInt:0xFFFF3B49],\
-                                                          [NSNumber numberWithUnsignedInt:0xFF319CFC],\
+// AOS MAPROUTECOLOR(TRAFFIC=0,RED=1,ORANGE=2,YELLOW=3,GREEN=4,BLUE=5,INDIGO=6) 순서와 1:1 정렬.
+// index 0(TRAFFIC)은 bMapLineTraffic으로 교통색이 적용되므로 여기 값은 솔리드 fallback(blue).
+// RGB는 AOS inv_map_traffic_* 색상과 일치.
+#define IDS_SETTING_LINE_COLOR  [NSArray arrayWithObjects:[NSNumber numberWithUnsignedInt:0xFF0084F3],\
+                                                          [NSNumber numberWithUnsignedInt:0xFFF74953],\
+                                                          [NSNumber numberWithUnsignedInt:0xFFFF9611],\
+                                                          [NSNumber numberWithUnsignedInt:0xFFF3CE00],\
+                                                          [NSNumber numberWithUnsignedInt:0xFF21D54A],\
+                                                          [NSNumber numberWithUnsignedInt:0xFF0084F3],\
+                                                          [NSNumber numberWithUnsignedInt:0xFF384D6D],\
                                                           nil]
 
 struct IAPoint {

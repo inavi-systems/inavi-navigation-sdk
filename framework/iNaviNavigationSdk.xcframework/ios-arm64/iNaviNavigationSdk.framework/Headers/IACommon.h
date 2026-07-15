@@ -220,6 +220,7 @@ typedef enum  {
 
 +(NSInteger)currentMapLevel;
 +(VIEWMODE)getMapViewMode;
++ (NSInteger)getMapUIMode;   // Dart MapUiMode 값(0 guide/1 mapMove/3 simulGuide/4 simulMapMove). 회전모드(getMapViewMode)와 무관.
 
 +(void)setMapTimeOfDestination;
 
@@ -240,6 +241,12 @@ typedef enum  {
 + (NSInteger)getPassedDistance;
 + (NSTimeInterval)getStart_Date;
 + (NSInteger)getPaidTollFee;
++ (NSString*)getCurrentRoadName;   // 현재 주행 도로명 (IAGuideAdapter 위임)
++ (NSString*)getRoadName;   // payload용 도로명. AOS drawRegion 미러: 경로있음 + 온로드(오프로드/휴게소/GPS無 제외)일 때만 getCurrentRoadName, 아니면 "".
++ (NSString*)getRegionName;        // 현재 위치 행정명 (IAWillySearchAdapter.getAdminName 역지오코딩). nil=조회 전/실패, ""=행정정보 없음.
++ (NSString*)getFullAddr;          // payload 전체주소. InvBottomMainView 로직 미러: 주행중→loadCurAddrName, 자유주행→5초주기 getAdderss(true) 갱신+getAdderss(false) 읽기 (native HUD 숨김 시 독립 동작).
++ (BOOL)isSimulPaused;             // 모의주행 사용자 일시정지 여부 (IAMMCAdapter 위임)
++ (NSInteger)getPassedTime;        // 주행 경과 시간(초) (RouteInfoManager 위임)
 
 + (BOOL)isRouteExist;
 + (BOOL)getDriveMode;
@@ -268,6 +275,8 @@ typedef enum  {
 
 + (NSInteger)getReminingTime;
 
++ (NSInteger)getArrivalTime;   // 도착 예정 시각 = KST 현재시각(자정기준초, 분단위) + 남은시간. AOS GetNowTime()+remainTime 미러.
+
 + (NSInteger)getRemainingTollFee;
 
 + (CGPoint)getCurrentPostion;
@@ -279,6 +288,7 @@ typedef enum  {
 + (NSString*)getAdderss:(BOOL)bUpdate;
 
 + (void)setSimulSpeed:(CGFloat)speed;
++ (NSInteger)getSimulSpeed;   // 모의주행 표시 배속(1/2/4/8). 내부값(60/120/240/480)을 60으로 나눔. AOS simulSpeedDisplay 미러.
 + (void)setSimulPosition:(CGFloat)percent;
 + (void)setSimulIndex:(NSInteger)index;
 + (void)setSimulPause:(BOOL)bPause;

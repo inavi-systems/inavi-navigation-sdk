@@ -1,0 +1,231 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.108 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name iNaviNavigationSdk
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.2
+import Combine
+import DeveloperToolsSupport
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import iNaviNavigationSdk
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(InvView) @_Concurrency.MainActor @preconcurrency public class InvView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency weak public var delegate: (any iNaviNavigationSdk.InvViewProtocol)?
+  @_Concurrency.MainActor @preconcurrency public func updateView()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func point(inside point: CoreFoundation.CGPoint, with event: UIKit.UIEvent?) -> Swift.Bool
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class InvMenuView : iNaviNavigationSdk.InvView {
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(InvMenuLayer) @_Concurrency.MainActor @preconcurrency public class InvMenuLayer : iNaviNavigationSdk.InvMenuView {
+  @objc @_Concurrency.MainActor @preconcurrency override public func updateView()
+  @objc @_Concurrency.MainActor @preconcurrency public func startSpinMapBT(_ angle: Swift.Float)
+  @objc deinit
+}
+extension iNaviNavigationSdk.InvMenuLayer : iNaviNavigationSdk.InvViewProtocol {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onTouchMapMode()
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(IARouteSearchModule) public class IARouteSearchModule : ObjectiveC.NSObject {
+  @objc public static let shared: iNaviNavigationSdk.IARouteSearchModule
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(ShiManager) public class ShiManager : ObjectiveC.NSObject {
+  @objc public static let sharedInstance: iNaviNavigationSdk.ShiManager
+  @objc public var isShiMode: Swift.Bool
+  @objc public func loadShiData()
+  @objc public func getShiManagerWarning(mmc: iNaviNavigationSdk.MMCModuleData, shiMember: iNaviNavigationSdk.INaviShiMember?, speed: ObjectiveC.NSInteger, isSimulMode: Swift.Bool) -> Swift.Int
+  @objc public func getShiManagerNoDriveWarning() -> Swift.Bool
+  @objc public func checkShiManagerDisasterWarning()
+  @objc public func checkShiManagerStopAreaWarning(_ mmc: iNaviNavigationSdk.MMCModuleData)
+  @objc public func getShiManagerNoWayPoint(_ shiWeightType: Swift.Int)
+  public func getShiManagerNoWayPointEnterCheck(mmc: iNaviNavigationSdk.MMCModuleData) -> Swift.Bool
+  @objc public func setShiGpsInfo(mmc: iNaviNavigationSdk.MMCModuleData, speed: ObjectiveC.NSInteger, angle: Swift.Int, pathVolnYn: Swift.Bool = false, shiMember: iNaviNavigationSdk.INaviShiMember?) -> Swift.Bool
+  @objc public func getShiPoiData(_ name: Swift.String, bStart: Swift.Bool = true) -> iNaviNavigationSdk.INaviRoutePtItem?
+  @objc public func getShiPoiDataAry(_ name: [Swift.String]) -> [iNaviNavigationSdk.INaviRoutePtItem]?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public protocol InvViewProtocol {
+  @objc optional func onMoveMapPostion(point: CoreFoundation.CGPoint)
+  @objc optional func onClickMapIconPostion(point: CoreFoundation.CGPoint)
+  @objc optional func onDrawGroupIcon(items: [iNaviNavigationSdk.InvGroupMember]?)
+  @objc optional func onZoomToFitDrawIcon(items: [iNaviNavigationSdk.InvGroupMember]?, selectIndex: ObjectiveC.NSInteger)
+  @objc optional func onZoomToFitDrawDetailIcon(items: [CoreFoundation.CGPoint]?, rectPosition: [CoreFoundation.CGPoint]?, selectIndex: ObjectiveC.NSInteger)
+  @objc optional func updateInfoLayer()
+  @objc optional func onTouchCurrentOn()
+  @objc optional func onTouchZoomIn()
+  @objc optional func onTouchZoomOut()
+  @objc optional func onTouchCompass()
+  @objc optional func onTouchVolume()
+  @objc optional func onTouchMapMode()
+  @objc optional func onTouchReRoute()
+  @objc optional func onTouchMenu()
+  @objc optional func onTouchMain()
+  @objc optional func onTouchGuideCancel()
+}
+@_inheritsConvenienceInitializers @objc public class InvGroupMember : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class optimalPosition : ObjectiveC.NSObject, Swift.Codable {
+  @objc public var x: Swift.String
+  @objc public var y: Swift.String
+  @objc public var type: Swift.Int
+  @objc override dynamic public init()
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+extension ObjectiveC.NSObject {
+  public class var className: Swift.String {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc(INVCommon) public class INVCommon : ObjectiveC.NSObject {
+  @objc public static let sharedInstance: iNaviNavigationSdk.INVCommon
+  @objc public func getOptimalPosition(_ posx: Swift.String, posy: Swift.String, completionHandler: @escaping ([iNaviNavigationSdk.optimalPosition]?) -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct TurnSnapshot {
+  public let guideCode: Swift.Int
+  public let distance: Swift.Int
+  public let viaOrder: Swift.Int
+  public let index: Swift.Int
+  public let dirName: Swift.String?
+  public let tollPay: Swift.Int
+  public let roadNum: Swift.Int
+}
+public struct LaneSnapshot {
+  public let laneNum: Swift.Int
+  public let allLaneNum: Swift.Int
+  public let distance: Swift.Int
+  public let dirName: Swift.String?
+  public let laneCode: [Swift.Int]
+  public let laneType: [Swift.Int]
+  public let laneRecomm: [Swift.Int]
+  public let busLaneType: Swift.Int
+  public let hipass: Swift.Bool
+}
+public struct CamSnapshot {
+  public let type: Swift.Int
+  public let speedLimit: Swift.Int
+  public let distance: Swift.Int
+  public let roadType: Swift.Int
+  public let warning: Swift.Int
+  public let recSpeed: Swift.Int
+  public let avgSpeed: Swift.Int
+  public let time: Swift.Int
+  public let id: Swift.Int
+}
+public struct HighwaySnapshot {
+  public let type: Swift.Int
+  public let dist: Swift.Int
+  public let time: Swift.Int
+  public let name: Swift.String?
+  public let dirName: Swift.String?
+  public let oilCode: Swift.Int
+  public let service: Swift.Int
+  public let tollCost: Swift.Int
+  public let restCode: Swift.Int
+  public let avgSpeed: Swift.Int
+  public let trfCond: Swift.Int
+  public let oilPrice: Swift.Int
+  public let pole: Swift.Int
+  public let isOut: Swift.Bool
+  public let index: Swift.Int
+}
+public struct LinkColorSnapshot {
+  public let color: Swift.Int
+  public let dist: Swift.Int
+}
+public struct ZoomSnapshot {
+  public let iegId: Swift.String
+  public let image: Foundation.Data?
+}
+public struct DestArrivalSnapshot {
+  public let destName: Swift.String
+  public let driveDist: Swift.String
+  public let driveTime: Swift.String
+  public let paidFee: Swift.String
+}
+public struct RoadInfoSnapshot {
+  public let roadName: Swift.String
+  public let dist: Swift.Int
+  public let type: Swift.Int
+}
+public struct DriveGuidePayload {
+  public let turn: iNaviNavigationSdk.TurnSnapshot?
+  public let nextTurn: iNaviNavigationSdk.TurnSnapshot?
+  public let lane: iNaviNavigationSdk.LaneSnapshot?
+  public let camInfo: iNaviNavigationSdk.CamSnapshot?
+  public let speed: Swift.Int
+  public let isNight: Swift.Bool
+  public let hasRoute: Swift.Bool
+  public let driveModeStart: Swift.Bool
+  public let curLinkIdx: Swift.Int
+  public let remainTime: Swift.Int
+  public let remainDist: Swift.Int
+  public let arrivalTime: Swift.Int?
+  public let remainFee: Swift.Int?
+  public let percentOfDist: Swift.Float?
+  public let linkCnt: Swift.Int
+  public let simulPercent: Swift.Int
+  public let goalName: Swift.String?
+  public let viaName: Swift.String?
+  public let regionName: Swift.String?
+  public let roadName: Swift.String?
+  public let fullAddr: Swift.String?
+  public let highwayList: [iNaviNavigationSdk.HighwaySnapshot]
+  public let linkColorList: [iNaviNavigationSdk.LinkColorSnapshot]
+  public let routeDetailItems: [iNaviNavigationSdk.RoadInfoSnapshot]?
+  public let vmsInfo: Swift.String?
+  public let destArrival: iNaviNavigationSdk.DestArrivalSnapshot?
+  public let uiMode: Swift.Int?
+  public let isRouteMenuVisible: Swift.Bool?
+  public let zoom: iNaviNavigationSdk.ZoomSnapshot?
+  public let timeType: Swift.Int?
+  public let simulPaused: Swift.Bool
+  public let simulSpeed: Swift.Int
+}
+public protocol DriveGuideDelegate : AnyObject {
+  func onGuideUpdate(_ payload: iNaviNavigationSdk.DriveGuidePayload)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class INaviFlutterController : ObjectiveC.NSObject {
+  @objc public static let shared: iNaviNavigationSdk.INaviFlutterController
+  weak final public var delegate: (any iNaviNavigationSdk.DriveGuideDelegate)? {
+    get
+  }
+  final public func setDelegate(_ delegate: any iNaviNavigationSdk.DriveGuideDelegate)
+  final public func removeDelegate()
+  @objc(notifyGuideUpdateWithTurn:nextTurn:lane:cam:highwayList:linkColorList:curLinkDist:speed:isNight:hasRoute:driveModeStart:curLinkIdx:remainTime:remainDist:arrivalTime:remainFee:simulPercent:goalName:viaName:regionName:linkCnt:uiMode:timeType:) final public func notifyGuideUpdate(turn: iNaviNavigationSdk.GuideTurnInfo?, nextTurn: iNaviNavigationSdk.GuideTurnInfo?, lane: iNaviNavigationSdk.GuideLaneInfo?, cam: iNaviNavigationSdk.GuideCamInfo?, highwayList: [iNaviNavigationSdk.GuideHigiwayInfo]?, linkColorList: [iNaviNavigationSdk.InvTrafficBarData]?, curLinkDist: Swift.Int, speed: Swift.Int, isNight: Swift.Bool, hasRoute: Swift.Bool, driveModeStart: Swift.Bool, curLinkIdx: Swift.Int, remainTime: Swift.Int, remainDist: Swift.Int, arrivalTime: Swift.Int, remainFee: Swift.Int, simulPercent: Swift.Int, goalName: Swift.String?, viaName: Swift.String?, regionName: Swift.String?, linkCnt: Swift.Int, uiMode: Swift.Int, timeType: Swift.Int)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(InvGuideLayer) @_Concurrency.MainActor @preconcurrency public class InvGuideLayer : iNaviNavigationSdk.InvView {
+  @objc @_Concurrency.MainActor @preconcurrency override public func updateView()
+  @objc @_Concurrency.MainActor @preconcurrency public func layoutVisbleUpdate()
+  @objc @_Concurrency.MainActor @preconcurrency public func settingLeftSafeArea(_ padding: CoreFoundation.CGFloat)
+  @objc @_Concurrency.MainActor @preconcurrency public func settingRightSafeArea(_ padding: CoreFoundation.CGFloat)
+  @objc @_Concurrency.MainActor @preconcurrency public func setTbtColor(_ color: UIKit.UIColor)
+  @objc @_Concurrency.MainActor @preconcurrency public func setNextTbtColor(_ color: UIKit.UIColor)
+  @objc @_Concurrency.MainActor @preconcurrency public func updateGuideInfos(_ turnInfo: iNaviNavigationSdk.GuideTurnInfo?, nextTurnInfo: iNaviNavigationSdk.GuideTurnInfo?, laneInfo: iNaviNavigationSdk.GuideLaneInfo?, roadType road_type: iNaviNavigationSdk.ROAD_TYPE, isSimulationMode: Swift.Bool, isZoomVisible: Swift.Bool)
+  @objc @_Concurrency.MainActor @preconcurrency public func updateMMCInfo(_ mmcInfo: iNaviNavigationSdk.IAMMCDataInfo?, mmcModuleData MMCModuleData: iNaviNavigationSdk.MMCModuleData?, isSimulationMode: Swift.Bool)
+  @objc @_Concurrency.MainActor @preconcurrency public func update(_ camInfo: iNaviNavigationSdk.GuideCamInfo?, safeInfo: iNaviNavigationSdk.GuideSafeInfo?, roadType roadtype: iNaviNavigationSdk.ROAD_TYPE, nowSpeed speed: Swift.Int, isSimulationMode: Swift.Bool)
+  @objc @_Concurrency.MainActor @preconcurrency public func highWayInfoList(_ highWayInfoList: [iNaviNavigationSdk.GuideHigiwayInfo]?, isHighWayInfo: Foundation.NSNumber?, isZoomVisible: Swift.Bool)
+  @objc @_Concurrency.MainActor @preconcurrency public func didRealEndInfo()
+  @objc @_Concurrency.MainActor @preconcurrency public func updateVmsView(_ vid: Swift.String?, msg: Swift.String?)
+  @objc @_Concurrency.MainActor @preconcurrency public func updateProgressBar(_ percent: Swift.Int)
+  @objc @_Concurrency.MainActor @preconcurrency public func getBottomHeight() -> CoreFoundation.CGFloat
+  @objc deinit
+}
+extension iNaviNavigationSdk.InvGuideLayer : iNaviNavigationSdk.InvViewProtocol {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onTouchMain()
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onTouchMenu()
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onTouchGuideCancel()
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onTouchVolume()
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onTouchReRoute()
+}
