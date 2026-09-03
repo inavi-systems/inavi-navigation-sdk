@@ -164,6 +164,14 @@ INAVI_EXPORT
 - (void)initalizeNavi:(NSString*)uniqueID target:(id<INaviControllerDelegate>)target;
 
 /**
+ SDK를 제거한다. 주행/안내 종료 → 가이드 스레드 정지 → 지도 콘텐츠 초기화 → `INaviMapView` 참조 해제.
+
+ 재사용 시 새 `INaviMapView`를 생성한 뒤 `initalizeNavi:target:`를 호출한다.
+ @warning 등록된 `INaviMapOverlay`/`INaviMapIcon`은 무효화되므로 재초기화 후 다시 등록한다.
+ */
+- (void)destroyNavi;
+
+/**
  현 위치 반환
  @return `INaviPosition` 객체.
  */
